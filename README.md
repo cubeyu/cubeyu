@@ -1,4 +1,4 @@
-<h2 align="center">Hi there<img src="https://cdn.jsdelivr.net/gh/dmego/images/img/Hi.gif" height="32" />, I'm Dmego </h2>
+<h2 align="center">Hi there<img src="https://cdn.jsdelivr.net/gh/dmego/images/img/Hi.gif" height="32" />, I'm CubeYu </h2>
 <h3 align="center">A passionate backend developer from China</h3>
 
 ### ⚡️ A Few Quick Facts
@@ -8,7 +8,7 @@
 <ul>
     <li> 🌱 I’m currently learning Go、Docker、Kubernetes.</li>
     <li> 👯 I’m looking to collaborate on anything open source.</li>
-    <li> 📝 I regulary write articles on <a href="https://dmego.cn">https://dmego.cn</a>.</li>
+    <li> 📝 I regulary write articles on <a href="https://cubetec.cc">https://dmego.cn</a>.</li>
     <li> ⚡ Fun fact: I ❤️ 😻.</li>
 </ul>
 
