@@ -7,7 +7,7 @@ I am pursuing Artificial Intelligence and UI
 
 My research focuses on low-level vision, Generative models (including NLP, CV, MultiModal).
 
-✨ **Goal is Self-Consistent AI** ✨
+✨ **Goal is Self-Consistent AI Agent** ✨
 
 <!--
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jingyaogong&show_icons=true&theme=merko)
