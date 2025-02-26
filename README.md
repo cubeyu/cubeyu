@@ -1,8 +1,5 @@
 <div align="center">
 
-![Visitor Count](https://profile-counter.glitch.me/jingyaogong/count.svg)
-
-
 I am pursuing Artificial Intelligence and UI
 
 My research focuses on low-level vision, Generative models (including NLP, CV, MultiModal).
