@@ -9,7 +9,7 @@
 
 ###
 
-<div align="left">
+<div align="center">
   <img align="right" height="150" src="https://cubetec.asia/my-avatar.png"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
