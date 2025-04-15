@@ -9,7 +9,7 @@
 
 ###
 
-<img align="right" height="150" src="https://cubetec.asia/my-avatar.png"  />
+<img align="right" height="100" src="https://cubetec.asia/my-avatar.png"  />
 
 ###
 
