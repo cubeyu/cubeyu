@@ -1,16 +1,17 @@
-<h2 align="center">👋 Hi! I'm cubeyu</h2>
-<h3 align="center">A student from China</h3>
+<h2 align="center">👋 Hi! I'm cubeyu.A student from China</h2>
 
 ###
 
 <div align="center">
-  <img height="150" src="https://cubetec.asia/my-avatar.png" alt="avatar" style="border-radius:50%" />
-  
-  <div>
     <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=radical" height="150" alt="stats" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=radical" height="150" alt="languages" />
   </div>
 </div>
+
+###
+
+<div align="right">
+  <img height="150" src="https://cubetec.asia/my-avatar.png" alt="avatar" style="border-radius:50%" /><div>
 
 ###
 
