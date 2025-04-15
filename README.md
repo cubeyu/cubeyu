@@ -1,41 +1,47 @@
-<h2 align="left">Hi 👋! I'm cubeyu, a student from China</h2>
+<h2 align="center">👋 Hi! I'm cubeyu</h2>
+<h3 align="center">A student from China</h3>
 
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
+  <img height="150" src="https://cubetec.asia/my-avatar.png" alt="avatar" style="border-radius:50%" />
+  
+  <div>
+    <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=radical" height="150" alt="stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=radical" height="150" alt="languages" />
+  </div>
 </div>
 
 ###
 
-<div align="left">
-  <img align="right" height="120" src="https://cubetec.asia/my-avatar.png" style="margin-left:20px" />
+<div align="center">
+  <h3>🛠 Tech Stack</h3>
+  <div>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JS" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TS" />
+  </div>
   
-  ### Tech Stack
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="25" alt="JS" title="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="25" alt="TS" title="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="25" alt="HTML" title="HTML5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="25" alt="CSS" title="CSS3" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="25" alt="Python" title="Python" />
-  
-  ### Connect With Me
-  <a href="你的youtube链接">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white" height="25" alt="Youtube" />
-  </a>
-  <a href="你的instagram链接">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" height="25" alt="Instagram" />
-  </a>
-  <a href="你的discord链接">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white" height="25" alt="Discord" />
-  </a>
-  <a href="mailto:你的邮箱">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" height="25" alt="Gmail" />
-  </a>
+  <h3>🌐 Connect With Me</h3>
+  <div>
+    <a href="YOUR_YOUTUBE_URL">
+      <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white" alt="YouTube" />
+    </a>
+    <a href="YOUR_INSTAGRAM_URL">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <a href="YOUR_DISCORD_URL">
+      <img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Discord" />
+    </a>
+    <a href="mailto:YOUR_EMAIL">
+      <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail" />
+    </a>
+  </div>
 </div>
 
 ###
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg" alt="Snake animation" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg" alt="Snake animation" />
+</div>
