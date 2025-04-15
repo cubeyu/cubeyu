@@ -2,6 +2,23 @@
   <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=25&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=800&height=80&lines=Hi+%F0%9F%91%8B%21+I'm+cubeyu;Student+from+China" alt="Typing SVG" />
 </h1>
 
+<div align="center">
+  <h1 style="font-family: 'Courier New', monospace; 
+             text-shadow: 2px 2px 0px #00ff00;
+             letter-spacing: 2px;
+             color: #00ffff;
+             border: 3px dotted #ff00ff;
+             padding: 10px;
+             display: inline-block;">
+    ⚡️ HI! I'M CUBEYU ⚡️
+  </h1>
+  <p style="font-family: 'Courier New', monospace;
+           text-shadow: 1px 1px 0px yellow;
+           letter-spacing: 1px;">
+    STUDENT FROM CHINA 🇨🇳
+  </p>
+</div>
+
 ###
 
 <div align="center">
