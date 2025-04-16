@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访问量 &color=brightgreen&style=for-the-badge" alt="访问量" />
+  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客 &color=brightgreen&style=for-the-badge" alt="访客" />
   <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
 </p>
 
@@ -63,12 +63,6 @@
 </details>
 
 ---
-
-### 🧮 动态统计图（每日自动更新）
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/cubeyu/cubeyu@output/metrics.svg" alt="GitHub Metrics" />
-</p>
 
 ### 🐍 贪吃蛇动画（Snake）
 
