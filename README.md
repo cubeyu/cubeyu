@@ -1,9 +1,11 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=50&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=1000&height=90&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=1100&height=100&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=GitHub访问&color=brightgreen&style=for-the-badge" alt="访问量" />
+  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客&color=brightgreen&style=for-the-badge" alt="访问量" />
+  <img src="https://img.shields.io/github/followers/cubeyu?label=关注者&style=for-the-badge&color=blue" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
 </p>
 
 ---
@@ -32,16 +34,20 @@
 
 ---
 
-### 📈 GitHub 数据
+### 📊 GitHub 数据
 
-<div align="center">
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
   <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=github_dark&rank_icon=github&include_all_commits=true&count_private=true" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
 </div>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=cubeyu&theme=react-dark&area=true&hide_border=true" />
+</p>
+
 ---
 
-### 🚀 项目展示
+### 🚀 项目展示 / Featured Projects
 
 > **MistyCraft 官网**  
 > 基于 WordPress 打造的 Minecraft 风格官网，集成动态首页、AuthMe 登录、投票中心与活动系统。  
