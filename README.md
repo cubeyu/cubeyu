@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=1100&height=100&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.jsdelivr.net?font=Fira+Code&size=60&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=1100&height=100&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客&color=brightgreen&style=for-the-badge" alt="访问量" />
+  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客量&color=brightgreen&style=for-the-badge" alt="访客量" />
   <img src="https://img.shields.io/github/followers/cubeyu?label=关注者&style=for-the-badge&color=blue" alt="Followers" />
   <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
 </p>
@@ -36,7 +36,7 @@
 
 ### 📊 GitHub 数据
 
-<div align="center" style="display: flex; justify-content: center; gap: 10px;">
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=github_dark&rank_icon=github&include_all_commits=true&count_private=true" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
 </div>
@@ -80,10 +80,4 @@
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" />
   </a>
   <a href="mailto:cubeyu@aliyun.com">
-    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="35" />
-  </a>
-</div>
-
----
-
-> “像构建世界一样构建网页。” – *cubeyu*
+    <img
