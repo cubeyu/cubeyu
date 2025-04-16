@@ -1,72 +1,97 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=25&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=800&height=80&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
-</h1>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访问量&color=brightgreen&style=flat-square" />
-</p>
-
----
-
-### 🧠 自我介绍
-
-- 🎓 中国学生 / 前端开发者
-- 🧩 擅长 Web UI、交互式网页与 Minecraft 社区前端
-- 🔧 技术栈包括：HTML / CSS / JS / React / WordPress / PHP
-- 🚧 当前正在开发：[**MistyCraft 官网**](https://mcinfo.fwh.is)
-- ✨ 热衷于把“游戏感”融入网页体验中
-
----
-
-### ⚙️ 技术栈
-
+<!-- 动态ASCII艺术标题 -->
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" />
+  <a href="https://mcinfo.fwh.is">
+    <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=28&duration=2000&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=%F0%9F%8E%AE+Hi!+I'm+Cubeyu+%F0%9F%92%BB;Frontend+Developer+%7C+Minecraft+Modder" alt="Pixel Typing" />
+  </a>
 </div>
 
 ---
 
-### 📈 GitHub 数据
-
+<!-- 3D卡片式个人简介 -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=dracula&rank_icon=github&include_all_commits=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=dracula&langs_count=6" height="150" />
+  <div style="background: linear-gradient(145deg, #1a1a2e, #16213e); 
+             border-radius: 15px;
+             padding: 2rem;
+             box-shadow: 0 8px 32px rgba(0, 255, 255, 0.1);
+             border: 1px solid #00ffff33;">
+    <h2 style="color: #00ff9d; text-shadow: 0 0 10px #00ff9d80;">🎮 创世开发者 | 🧩 界面魔术师</h2>
+    <p>🌌 在数字宇宙中雕刻交互体验的匠人</p>
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzVjZ3d4cHZodGJwN2h5d2t2aHZ3NnI2M2x3aG5wM3J4eHh0bG12ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="200" alt="Minecraft Crafting">
+  </div>
 </div>
 
 ---
 
-### 🚀 项目展示
-
-> **MistyCraft V8 官网主题**  
-> 基于 WordPress 打造的 Minecraft 风格官网，集成动态首页、AuthMe 登录、投票中心与活动系统。
-
-[![访问官网](https://img.shields.io/badge/访问官网-mcinfo.fwh.is-green?style=flat-square)](https://mcinfo.fwh.is)
-
----
-
-### 🐍 贪吃蛇动画（Snake）
-
+### 🔮 技术魔方
+<!-- 动态旋转图标 -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg" alt="Snake animation" />
+  <div style="display: inline-flex; gap: 1.5rem; flex-wrap: wrap;">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=1a1a2e" alt="HTML5">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=1a1a2e" alt="CSS3">
+    <img src="https://img.shields.io/badge/JavaScript-FFD43B?style=for-the-badge&logo=javascript&logoColor=black&labelColor=1a1a2e" alt="JavaScript">
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&labelColor=1a1a2e" alt="PHP">
+    <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=1a1a2e" alt="WordPress">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=1a1a2e" alt="Tailwind">
+  </div>
 </div>
 
 ---
 
-### 📬 联系方式
+### ⚙️ 开发装备
+<!-- 游戏化进度条 -->
+| 技术领域         | 熟练度             |
+|------------------|--------------------|
+| **前端架构**     | ▰▰▰▰▰▰▰▰▱ 85%  |
+| **游戏化交互**   | ▰▰▰▰▰▰▱▱▱ 70%  |
+| **WordPress**    | ▰▰▰▰▰▰▰▱▱ 80%  |
+| **PHP集成**      | ▰▰▰▰▰▱▱▱▱ 65%  |
 
+---
+
+### 🎯 成就殿堂
+<!-- 3D翻转卡片式项目展示 -->
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" />
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" />
-  <a href="mailto:cubeyu@example.com"><img src="https://img.shields.io/static/v1?message=邮箱&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" /></a>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+
+[![MistyCraft](https://github-readme-medium-recent-article.vercel.app/medium/@cubeyu/0)](https://mcinfo.fwh.is)
+    
+[![AuthMe系统](https://github-readme-medium-recent-article.vercel.app/medium/@cubeyu/1)](https://github.com/cubeyu)
+    
+  </div>
 </div>
 
 ---
 
-> “像构建世界一样构建网页。” – *cubeyu*
+### 📊 数据核心
+<!-- 动态统计卡片 -->
+<div align="center">
+  <a href="https://mcinfo.fwh.is">
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=nightowl&include_all_commits=true&count_private=true&bg_color=0d1117&border_color=00ffff" alt="Stats">
+  </a>
+  <a href="https://github.com/cubeyu?tab=repositories">
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=nightowl&bg_color=0d1117&border_color=00ffff" alt="Languages">
+  </a>
+</div>
+
+---
+
+### 🌌 星际通讯
+<!-- 动态悬浮按钮 -->
+<div align="center">
+  <a href="mailto:cubeyu@example.com">
+    <img src="https://img.shields.io/badge/📧_Email-00ffff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e" alt="Email">
+  </a>
+  <a href="https://mcinfo.fwh.is">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-00ff9d?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=1a1a2e" alt="Portfolio">
+  </a>
+</div>
+
+---
+
+<!-- 像素风分隔线 -->
+<img src="https://raw.githubusercontent.com/cubeyu/cubeyu/main/assets/pixel-divider.gif" width="100%">
+
+> "在代码的方寸之间，构筑属于数字游侠的星辰大海" — **Cubeyu**
+
+<!-- 动态背景 -->
+<img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg" alt="Snake Game" width="100%">
