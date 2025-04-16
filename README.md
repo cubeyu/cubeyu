@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=1000&height=90&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=45&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=1000&height=90&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=GitHub访问量&color=brightgreen&style=for-the-badge" alt="访问量" />
+  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客数&color=brightgreen&style=for-the-badge" alt="访问量" />
 </p>
 
 ---
