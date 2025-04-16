@@ -43,7 +43,7 @@
 
 ### 🚀 项目展示
 
-> **MistyCraft V8 官网主题**  
+> **MistyCraft官网**  
 > 基于 WordPress 打造的 Minecraft 风格官网，集成动态首页、AuthMe 登录、投票中心与活动系统。
 
 [![访问官网](https://img.shields.io/badge/访问官网-mcinfo.fwh.is-green?style=flat-square)](https://mcinfo.fwh.is)
