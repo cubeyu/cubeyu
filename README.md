@@ -1,9 +1,10 @@
-<h1 align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=1100&height=100&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=1100&height=100&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
 </h1>
+<p align="center" hidden>Hi！I'm cubeyu，一名来自中国的学生开发者。</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客&color=brightgreen&style=for-the-badge" alt="访客量" />
-  <img 
   <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
 </p>
 
@@ -22,23 +23,24 @@
 ### ⚙️ 技术栈
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" title="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" title="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" title="React" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" title="HTML5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" title="CSS3" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" title="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" title="Java" />
 </div>
 
 ---
 
 ### 📊 GitHub 数据
 
-<div align="center" style="display: flex; justify-content: center; gap: 10px;">
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=github_dark&rank_icon=github&include_all_commits=true&count_private=true" height="165" />
+  <br />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
-</div>
+</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.cyclic.app/graph?username=cubeyu&theme=react-dark&area=true&hide_border=true" />
@@ -50,11 +52,21 @@
 
 > **MistyCraft 官网**  
 > 基于 WordPress 打造的 Minecraft 风格官网，集成动态首页、AuthMe 登录、投票中心与活动系统。  
+> 技术栈：`WordPress` `PHP` `Minecraft` `前端自定义主题`  
 [![访问官网](https://img.shields.io/badge/访问官网-mcinfo.fwh.is-brightgreen?style=flat-square)](https://mcinfo.fwh.is)
 
 > **Minecraft 公告站**  
-> 一个聚焦公告、活动与规则系统的 MC 公告平台，适配移动端与 MC 社区互动。  
+> 聚焦公告、活动与规则系统的 MC 公告平台，适配移动端与 MC 社区互动。  
+> 技术栈：`HTML` `JS` `响应式设计`  
 [![访问公告站](https://img.shields.io/badge/访问公告站-mc.infy.uk-blue?style=flat-square)](https://mc.infy.uk)
+
+<details>
+<summary>更多项目（点击展开）</summary>
+
+> **其他项目...**  
+> 敬请期待更多开源内容！
+
+</details>
 
 ---
 
