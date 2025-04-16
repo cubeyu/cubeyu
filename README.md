@@ -2,10 +2,8 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=1100&height=100&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
 </h1>
 
-<p align="center" hidden>Hi！I'm cubeyu，一名来自中国的学生开发者。</p>
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客&color=brightgreen&style=for-the-badge" alt="访客量" />
+  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=Watch &color=brightgreen&style=for-the-badge" alt="Watch" />
   <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
 </p>
 
