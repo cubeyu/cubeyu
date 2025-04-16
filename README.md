@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=Watch &color=brightgreen&style=for-the-badge" alt="Watch" />
+  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访问量 &color=brightgreen&style=for-the-badge" alt="Watch" />
   <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
 </p>
 
