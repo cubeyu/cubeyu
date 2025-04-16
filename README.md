@@ -20,7 +20,7 @@
 
 ### ⚙️ 技术栈
 
-<div align="center" style="background-color: transparent;">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" />
@@ -35,8 +35,8 @@
 ### 📈 GitHub 数据
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=github_dark&rank_icon=github&include_all_commits=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=github_dark&rank_icon=github&include_all_commits=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
 </div>
 
 ---
@@ -44,9 +44,12 @@
 ### 🚀 项目展示
 
 > **MistyCraft 官网**  
-> 基于 WordPress 打造的 Minecraft 风格官网，集成动态首页、AuthMe 登录、投票中心与活动系统。
-
+> 基于 WordPress 打造的 Minecraft 风格官网，集成动态首页、AuthMe 登录、投票中心与活动系统。  
 [![访问官网](https://img.shields.io/badge/访问官网-mcinfo.fwh.is-brightgreen?style=flat-square)](https://mcinfo.fwh.is)
+
+> **Minecraft 公告站**  
+> 一个聚焦公告、活动与规则系统的 MC 公告平台，适配移动端与 MC 社区互动。  
+[![访问公告站](https://img.shields.io/badge/访问公告站-mc.infy.uk-blue?style=flat-square)](https://mc.infy.uk)
 
 ---
 
@@ -55,7 +58,7 @@
 ![Snake build](https://github.com/cubeyu/cubeyu/actions/workflows/main.yml/badge.svg)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg?raw=true" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg" alt="Snake animation" />
 </div>
 
 ---
@@ -73,7 +76,7 @@
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" />
   </a>
   <a href="mailto:cubeyu@aliyun.com">
-    <img src="https://img.shields.io/static/v1?message=Email&logo=maildotru&label=&color=D14836&logoColor=white&style=for-the-badge" height="35" />
+    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="35" />
   </a>
 </div>
 
