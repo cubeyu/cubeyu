@@ -2,8 +2,8 @@
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客&color=brightgreen&style=for-the-badge" alt="访问量" />
-  <img src="https://img.shields.io/github/followers/cubeyu?label=关注者&style=for-the-badge&color=blue" alt="Followers" />
+  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客&color=brightgreen&style=for-the-badge" alt="访客" />
+  <img 
   <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
 </p>
 
