@@ -4,7 +4,6 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访问量&color=brightgreen&style=flat-square" />
-![Snake build](https://github.com/cubeyu/cubeyu/actions/workflows/main.yml/badge.svg)
 </p>
 
 ---
@@ -52,6 +51,8 @@
 ---
 
 ### 🐍 贪吃蛇动画（Snake）
+
+![Snake build](https://github.com/cubeyu/cubeyu/actions/workflows/main.yml/badge.svg)
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/snake.svg?raw=true" alt="Snake animation" />
