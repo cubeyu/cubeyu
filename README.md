@@ -1,72 +1,54 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=25&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=800&height=80&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
-</h1>
+<h1 align="center">你好，我是 cubeyu</h1>
+<p align="center">一名前端开发者 | Minecraft UI 创作者</p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访问量&color=brightgreen&style=flat-square" />
+---
+
+## 🧠 自我介绍
+
+- 🎓 中国学生 / 前端开发者  
+- 🧩 擅长 Web UI、交互式网页与 Minecraft 社区前端  
+- 🛠️ 技术栈包括：HTML / CSS / JS / React / WordPress / PHP  
+- 🚧 当前正在开发： [MistyCraft 官网](https://mcinfo.fwh.is)  
+- ✨ 热衷于把“游戏感”融入网页体验中  
+
+---
+
+## ⚙️ 技术栈
+
+<p align="left">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white&style=for-the-badge"/>
 </p>
 
 ---
 
-### 🧠 自我介绍
+## 🚀 项目展示
 
-- 🎓 中国学生 / 前端开发者
-- 🧩 擅长 Web UI、交互式网页与 Minecraft 社区前端
-- 🔧 技术栈包括：HTML / CSS / JS / React / WordPress / PHP
-- 🚧 当前正在开发：[**MistyCraft 官网**](https://mcinfo.fwh.is)
-- ✨ 热衷于把“游戏感”融入网页体验中
+### **MistyCraft V8 官网主题**
+基于 WordPress 打造的 Minecraft 风格官网，集成动态首页、AuthMe 登录、投票中心与活动系统。  
+[▶ 访问官网](https://mcinfo.fwh.is)
 
 ---
 
-### ⚙️ 技术栈
+## 🐍 GitHub 活动图
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" />
-</div>
+<!-- GitHub 活动图（替代 Snake 动画） -->
+![github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=cubeyu&theme=github-compact&hide_border=true)
 
 ---
 
-### 📈 GitHub 数据
+## 📬 联系方式
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=dracula&rank_icon=github&include_all_commits=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=dracula&langs_count=6" height="150" />
-</div>
-
----
-
-### 🚀 项目展示
-
-> **MistyCraft V8 官网主题**  
-> 基于 WordPress 打造的 Minecraft 风格官网，集成动态首页、AuthMe 登录、投票中心与活动系统。
-
-[![访问官网](https://img.shields.io/badge/访问官网-mcinfo.fwh.is-green?style=flat-square)](https://mcinfo.fwh.is)
+[![YouTube](https://img.shields.io/badge/YouTube-cubeyu-red?logo=youtube&style=for-the-badge)](https://youtube.com/...)
+[![Instagram](https://img.shields.io/badge/Instagram-cubeyu-e4405f?logo=instagram&style=for-the-badge)](https://instagram.com/...)
+[![Discord](https://img.shields.io/badge/Discord-cubeyu%231234-5865F2?logo=discord&style=for-the-badge)](https://discord.com/...)
 
 ---
 
-### 🐍 贪吃蛇动画（Snake）
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg" alt="Snake animation" />
-</div>
-
----
-
-### 📬 联系方式
-
-<div align="center">
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" />
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" />
-  <a href="mailto:cubeyu@example.com"><img src="https://img.shields.io/static/v1?message=邮箱&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" /></a>
-</div>
-
----
-
-> “像构建世界一样构建网页。” – *cubeyu*
+> “像构建世界一样构建网页。”  
+> —— *cubeyu*
