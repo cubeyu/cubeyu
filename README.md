@@ -41,15 +41,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
 </p>
 
----
-
-### 🧮 动态统计图（每日自动更新）
-
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" />
-</p>
-
----
 
 ### 🚀 项目展示 / Featured Projects
 
@@ -72,6 +63,12 @@
 </details>
 
 ---
+
+### 🧮 动态统计图（每日自动更新）
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/cubeyu/cubeyu@output/metrics.svg" alt="GitHub Metrics" />
+</p>
 
 ### 🐍 贪吃蛇动画（Snake）
 
