@@ -55,7 +55,7 @@
 ![Snake build](https://github.com/cubeyu/cubeyu/actions/workflows/main.yml/badge.svg)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/snake.svg?raw=true" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg?raw=true" alt="Snake animation" />
 </div>
 
 ---
