@@ -41,3 +41,11 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg" alt="Snake animation" />
 </div>
+
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg" alt="Snake animation" />
+
+###
