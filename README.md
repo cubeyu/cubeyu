@@ -1,6 +1,7 @@
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&duration=4000&pause=1000&color=00F72E&center=true&vCenter=true&width=1100&height=100&lines=Hi+%F0%9F%91%8B%EF%BC%81+I'm+cubeyu;一名来自中国的学生开发者" alt="Typing SVG" />
 </h1>
+
 <p align="center" hidden>Hi！I'm cubeyu，一名来自中国的学生开发者。</p>
 
 <p align="center">
@@ -42,8 +43,12 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
 </p>
 
+---
+
+### 🧮 动态统计图（每日自动更新）
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=cubeyu&theme=react-dark&area=true&hide_border=true" />
+  <img src="./github-metrics.svg" alt="GitHub Metrics" />
 </p>
 
 ---
