@@ -55,11 +55,9 @@
 
 ### 🐍 贪吃蛇动画（Snake）
 
-![Snake build](https://github.com/cubeyu/cubeyu/actions/workflows/main.yml/badge.svg)
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg" alt="Snake animation" />
-</div>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/cubeyu/cubeyu@output/snake.svg" alt="GitHub Snake" />
+</p>
 
 ---
 
