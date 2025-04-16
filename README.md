@@ -70,7 +70,7 @@
   <a href="https://discord.com/users/你的ID" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" />
   </a>
-  <a href="mailto:cubeyu@example.com">
+  <a href="mailto:cubeyu@aliyun.com">
     <img src="https://img.shields.io/static/v1?message=邮箱&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" />
   </a>
 </div>
