@@ -4,8 +4,8 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访问量&color=brightgreen&style=flat-square" />
-</p>
 ![Snake build](https://github.com/cubeyu/cubeyu/actions/workflows/main.yml/badge.svg)
+</p>
 
 ---
 
