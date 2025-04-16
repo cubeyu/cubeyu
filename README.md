@@ -2,7 +2,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客量&color=brightgreen&style=for-the-badge" alt="访客" />
+  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客&color=brightgreen&style=for-the-badge" alt="访客量" />
   <img 
   <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
 </p>
@@ -75,7 +75,7 @@
   <a href="https://instagram.com">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&style=for-the-badge" height="35" />
   </a>
-  <a href="https://discord.com/users/你的ID">
+  <a href="https://discord.com/users/cubeyu">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" />
   </a>
   <a href="mailto:cubeyu@aliyun.com">
