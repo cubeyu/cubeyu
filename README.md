@@ -20,7 +20,7 @@
 
 ### ⚙️ 技术栈
 
-<div align="center">
+<div align="center" style="background-color: transparent;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" />
@@ -35,25 +35,25 @@
 ### 📈 GitHub 数据
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=dracula&rank_icon=github&include_all_commits=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=dracula&langs_count=6" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=github_dark&rank_icon=github&include_all_commits=true&count_private=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="150" />
 </div>
 
 ---
 
 ### 🚀 项目展示
 
-> **MistyCraft官网**  
+> **MistyCraft 官网**  
 > 基于 WordPress 打造的 Minecraft 风格官网，集成动态首页、AuthMe 登录、投票中心与活动系统。
 
-[![访问官网](https://img.shields.io/badge/访问官网-mcinfo.fwh.is-green?style=flat-square)](https://mcinfo.fwh.is)
+[![访问官网](https://img.shields.io/badge/访问官网-mcinfo.fwh.is-brightgreen?style=flat-square)](https://mcinfo.fwh.is)
 
 ---
 
 ### 🐍 贪吃蛇动画（Snake）
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/snake.svg?raw=true" alt="Snake animation" />
 </div>
 
 ---
@@ -61,17 +61,17 @@
 ### 📬 联系方式
 
 <div align="center">
-  <a href="https://youtube.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" />
+  <a href="https://youtube.com">
+    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=&color=FF0000&logoColor=white&style=for-the-badge" height="35" />
   </a>
-  <a href="https://instagram.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" />
+  <a href="https://instagram.com">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&style=for-the-badge" height="35" />
   </a>
-  <a href="https://discord.com/users/你的ID" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" />
+  <a href="https://discord.com/users/你的ID">
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" />
   </a>
   <a href="mailto:cubeyu@aliyun.com">
-    <img src="https://img.shields.io/static/v1?message=邮箱&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" />
+    <img src="https://img.shields.io/static/v1?message=Email&logo=maildotru&label=&color=D14836&logoColor=white&style=for-the-badge" height="35" />
   </a>
 </div>
 
