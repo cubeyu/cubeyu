@@ -24,9 +24,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" title="PHP" />
 </div>
 
-<p align="center">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/cubeyu/cubeyu@output/snake.svg" alt="GitHub Snake" />
-</p>
+</div>
 
 ---
 
