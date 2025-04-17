@@ -9,8 +9,6 @@
 
 ---
 
-### ⚙️ 技术栈
-
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" title="JavaScript" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" title="TypeScript" />
@@ -21,15 +19,12 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" title="Java" />
 </div>
 
----
-
-### 📊 GitHub 数据
-
 <p align="center">
   <br />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
 </p>
 
+---
 
 ### 🚀 项目展示 / Featured Projects
 
