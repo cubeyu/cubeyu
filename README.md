@@ -21,12 +21,12 @@
 </div>
 
 <p align="center">
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
+  <img src="https://cdn.jsdelivr.net/gh/cubeyu/cubeyu@output/snake.svg" alt="GitHub Snake" />
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/cubeyu/cubeyu@output/snake.svg" alt="GitHub Snake" />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
 </p>
 
 ---
