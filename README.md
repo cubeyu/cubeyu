@@ -5,12 +5,6 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=cubeyu&label=Visitors&color=brightgreen&style=for-the-badge" />
   <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
-  <a href="https://discord.com/users/cubeyu">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" />
-  </a>
-  <a href="mailto:cubeyu@aliyun.com">
-    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="35" />
-  </a>
 </p>
 
 <div align="center">
@@ -53,3 +47,11 @@
 ---
 
 > “像构建世界一样构建网页。” – *cubeyu*
+<p align="center">
+  <a href="https://discord.com/users/cubeyu">
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" />
+  </a>
+  <a href="mailto:cubeyu@aliyun.com">
+    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="35" />
+  </a>
+〈/p〉
