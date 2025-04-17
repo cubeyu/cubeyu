@@ -7,7 +7,6 @@
   <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
 </p>
 
----
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" title="JavaScript" />
@@ -23,6 +22,8 @@
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/cubeyu/cubeyu@output/snake.svg" alt="GitHub Snake" />
 </p>
+
+---
 
 <p align="center">
   <br />
