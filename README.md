@@ -7,6 +7,14 @@
   <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=for-the-badge&color=yellow" alt="Stars" />
 </p>
 
+<div align="center">
+  <a href="https://discord.com/users/cubeyu">
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" />
+  </a>
+  <a href="mailto:cubeyu@aliyun.com">
+    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="35" />
+  </a>
+</div>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" title="JavaScript" />
@@ -44,25 +52,6 @@
 > 敬请期待更多开源内容！
 
 </details>
-
----
-
-### 📬 联系方式
-
-<div align="center">
-  <a href="https://youtube.com">
-    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=&color=FF0000&logoColor=white&style=for-the-badge" height="35" />
-  </a>
-  <a href="https://instagram.com">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&style=for-the-badge" height="35" />
-  </a>
-  <a href="https://discord.com/users/cubeyu">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" />
-  </a>
-  <a href="mailto:cubeyu@aliyun.com">
-    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="35" />
-  </a>
-</div>
 
 ---
 
