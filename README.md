@@ -25,6 +25,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
 </p>
 
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/cubeyu/cubeyu@output/snake.svg" alt="GitHub Snake" />
+</p>
+
 ---
 
 ### 🚀 项目展示 / Featured Projects
@@ -46,14 +50,6 @@
 > 敬请期待更多开源内容！
 
 </details>
-
----
-
-### 🐍 贪吃蛇动画（Snake）
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/cubeyu/cubeyu@output/snake.svg" alt="GitHub Snake" />
-</p>
 
 ---
 
