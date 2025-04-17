@@ -18,6 +18,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" title="PHP" />
 </div>
 
+---
+
+> “像构建世界一样构建网页。” – *cubeyu*
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/cubeyu/cubeyu@output/snake.svg" alt="GitHub Snake" />
 </div>
@@ -46,7 +49,6 @@
 
 ---
 
-> “像构建世界一样构建网页。” – *cubeyu*
 <p align="center">
   <a href="https://discord.com/users/cubeyu">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" />
