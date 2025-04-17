@@ -25,13 +25,6 @@
 
 ---
 
-<p align="center">
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
-</p>
-
----
-
 ### 🚀 项目展示 / Featured Projects
 
 > **MistyCraft 官网**  
