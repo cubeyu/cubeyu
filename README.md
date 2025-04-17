@@ -36,7 +36,6 @@
 ### 📊 GitHub 数据
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=github_dark&rank_icon=github&include_all_commits=true&count_private=true" height="165" />
   <br />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cubeyu&layout=compact&theme=github_dark&langs_count=6" height="165" />
 </p>
