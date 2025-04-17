@@ -9,13 +9,10 @@
 
 ---
 
-### 🧠 自我介绍
+### 💻 自我介绍
 
 - 🎓 中国学生 / 前端开发者  
-- 🧩 擅长 Web UI、交互式网页与 Minecraft 社区前端  
-- 🔧 技术栈包括：HTML / CSS / JS / React / WordPress / PHP  
-- 🚧 当前正在开发：[**MistyCraft 官网**](https://mcinfo.fwh.is)  
-- ✨ 热衷于把“游戏感”融入网页体验中  
+- 🧩 擅长 Web UI、交互式网页与Minecraft 社区前端
 
 ---
 
