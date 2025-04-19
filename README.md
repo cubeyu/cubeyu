@@ -27,28 +27,6 @@
 
 ---
 
-### 🚀 项目展示 / Featured Projects
-
-> **MistyCraft 官网**  
-> 基于 WordPress 打造的 Minecraft 风格官网，集成动态首页、AuthMe 登录、投票中心与活动系统。  
-> 技术栈：`WordPress` `PHP` `Minecraft` `前端自定义主题`  
-[![访问官网](https://img.shields.io/badge/访问官网-mcinfo.fwh.is-brightgreen?style=flat-square)](https://mcinfo.fwh.is)
-
-> **Minecraft 公告站**  
-> 聚焦公告、活动与规则系统的 MC 公告平台，适配移动端与 MC 社区互动。  
-> 技术栈：`HTML` `JS` `响应式设计`  
-[![访问公告站](https://img.shields.io/badge/访问公告站-mc.infy.uk-blue?style=flat-square)](https://mc.infy.uk)
-
-<details>
-<summary>更多项目（点击展开）</summary>
-
-> **其他项目...**  
-> 敬请期待更多开源内容！
-
-</details>
-
----
-
 <p align="center">
   <a href="https://discord.com/users/cubeyu">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" />
