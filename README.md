@@ -7,7 +7,7 @@
 
 - 🔭 目前在做：AI 应用开发、LLM 集成、个人知识库工具
 - 🌱 学习：LangChain、Next.js、RAG 架构优化
-- 💼 求职中：AI 应用开发工程师 / 全栈开发（AI 方向）/ 运维开发
+- 💼 求职中：AI 应用开发工程师 / AI产品经理
 - ⚡ 个人网站：https://techisle.top
 - 📫 邮箱：cubeyu@aliyun.com
 
@@ -30,8 +30,6 @@
 
 | 项目 | 描述 | 技术栈 | 在线地址 |
 |------|------|--------|----------|
-| **[ai-news-radar](https://github.com/cubeyu/ai-news-radar)** | AI 新闻聚合/分析工具 | Python, AI API | 查看仓库 |
-| **[Kilacraft-AI](https://github.com/cubeyu/Kilacraft-AI)** | AI 驱动的项目/工具 | Java, AI 集成 | 查看仓库 |
 | **[CTools](https://github.com/cubeyu/CTools)** | 服务器管理多功能工具 | Java | 查看仓库 |
 | **[DonatePage](https://github.com/cubeyu/DonatePage)** | 个人多合一收款网站 | CSS, HTML | 查看仓库 |
 
