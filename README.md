@@ -30,10 +30,10 @@
 
 | 项目 | 描述 | 技术栈 | 在线地址 |
 |------|------|--------|----------|
-| **[CTools](https://github.com/cubeyu/CTools)** | 服务器管理多功能工具 | Java | 查看仓库 |
+| **[CTools](https://github.com/cubeyu/CTools)** | MC服务器多功能工具 | Java | 查看仓库 |
 | **[DonatePage](https://github.com/cubeyu/DonatePage)** | 个人多合一收款网站 | CSS, HTML | 查看仓库 |
 
-> 💡 **关于我的项目**：我习惯使用 AI 编程工具（如 Trae IDE、GitHub Copilot）进行高效开发，负责整体架构设计、代码调试、功能迭代与生产环境部署。我认为 AI 时代的高效开发者 = 会用 AI 工具 + 能判断代码质量 + 具备系统落地能力。
+> 💡 **关于我的项目**：我习惯使用 AI 编程工具（如 Trae IDE、WorkBuddy）进行高效开发，负责整体架构设计、代码调试、功能迭代与生产环境部署。我认为 AI 时代的高效开发者 = 会用 AI 工具 + 能判断代码质量 + 具备系统落地能力。
 
 ---
 
@@ -41,7 +41,7 @@
 
 - 🔨 持续构建 AI 应用并部署到云端
 - 🐳 使用 Docker + 1Panel 管理服务器与容器化应用
-- 📝 在个人网站 [techisle.top](https://techisle.top) 分享技术笔记
+- 📝 个人网站 [techisle.top](https://techisle.top)
 
 ---
 
