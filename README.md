@@ -30,11 +30,11 @@
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
-    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9;">
-      <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:12px;">栖身代码 · 游走字节</div><br/>
+    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9;">
+      <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:4px;">栖身代码 · 游走字节</div>
       亦慕代码之巧，乐见开源之盛<br/>以键盘为笔，屏幕为纸<br/>行间写山水，帧里绘春秋
     </td>
-    <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
+    <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-landscape-dark.svg"/>
   <img src="./svg/ink-landscape.svg" alt="山水孤舟" style="width:100%; max-width:320px; height:auto;"/>
@@ -47,7 +47,7 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
-  <img src="./svg/divider-seal.svg" width="240" alt="分隔"/>
+  <img src="./svg/divider-seal.svg" width="180" alt="分隔"/>
 </picture></p>
 
 <!-- ════════════ 贰 · 所学技艺（图左 · 文右） ════════════ -->
@@ -58,28 +58,14 @@
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
-    <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
+    <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-bamboo-dark.svg"/>
   <img src="./svg/ink-bamboo.svg" alt="墨竹劲节" style="width:100%; max-width:320px; height:auto;"/>
 </picture>
     </td>
-    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
-      <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 言语 —</div>
-      <img src="https://img.shields.io/badge/JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=f7df1e" />
-      <img src="https://img.shields.io/badge/TypeScript-1a1a1a?style=flat-square&logo=typescript&logoColor=3178c6" />
-      <img src="https://img.shields.io/badge/Python-1a1a1a?style=flat-square&logo=python&logoColor=3776ab" />
-      <img src="https://img.shields.io/badge/Go-1a1a1a?style=flat-square&logo=go&logoColor=00add8" />
-      <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 框架 —</div>
-      <img src="https://img.shields.io/badge/React-a83232?style=flat-square&logo=react&logoColor=61dafb" />
-      <img src="https://img.shields.io/badge/Vue-a83232?style=flat-square&logo=vue.js&logoColor=42b883" />
-      <img src="https://img.shields.io/badge/Node.js-a83232?style=flat-square&logo=node.js&logoColor=339933" />
-      <img src="https://img.shields.io/badge/Next.js-a83232?style=flat-square&logo=next.js&logoColor=000000" />
-      <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 器用 —</div>
-      <img src="https://img.shields.io/badge/Git-5a4632?style=flat-square&logo=git&logoColor=f05032" />
-      <img src="https://img.shields.io/badge/Docker-5a4632?style=flat-square&logo=docker&logoColor=2496ed" />
-      <img src="https://img.shields.io/badge/Linux-5a4632?style=flat-square&logo=linux&logoColor=fcc624" />
-      <img src="https://img.shields.io/badge/VSCode-5a4632?style=flat-square&logo=visual-studio-code&logoColor=007acc" />
+    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
+      <img src="https://skillicons.dev/icons?i=js,ts,python,go,react,vue,nodejs,nextjs,git,docker,linux,vscode&perline=4&theme=light" alt="所学技艺" style="width:100%; max-width:300px; height:auto;"/>
     </td>
   </tr>
 </table>
@@ -88,7 +74,7 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
-  <img src="./svg/divider-seal.svg" width="160" alt="分隔"/>
+  <img src="./svg/divider-seal.svg" width="180" alt="分隔"/>
 </picture></p>
 
 <!-- ════════════ 叁 · 得意之作（文左 · 图右） ════════════ -->
@@ -99,16 +85,13 @@
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
-    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9;">
+    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9;">
       <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:12px;">码海拾遗 · 聊记数作</div>
       <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">得意作·壹</a></strong> · 一方天地，藏星海之微光<br/>
       <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">得意作·贰</a></strong> · 半卷诗书，掩世俗之烟火<br/>
       <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">得意作·叁</a></strong> · 一壶浊酒，醉看代码生花
-      <p align="center" style="margin:14px 0 0;">
-        <img src="https://img.shields.io/badge/More-Works%20in%20Repo-a83232?style=flat-square&labelColor=ede0c6" />
-      </p>
     </td>
-    <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
+    <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-pavilion-dark.svg"/>
   <img src="./svg/ink-pavilion.svg" alt="楼阁得意图" style="width:100%; max-width:320px; height:auto;"/>
@@ -121,7 +104,7 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
-  <img src="./svg/divider-seal.svg" width="240" alt="分隔"/>
+  <img src="./svg/divider-seal.svg" width="180" alt="分隔"/>
 </picture></p>
 
 <!-- ════════════ 肆 · 笔耕不辍（图左 · 文右） ════════════ -->
@@ -132,18 +115,17 @@
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
-    <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
+    <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-brush-dark.svg"/>
   <img src="./svg/ink-brush.svg" alt="笔墨纸砚" style="width:100%; max-width:320px; height:auto;"/>
 </picture>
     </td>
-    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
-      <div style="text-align:left;">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="./svg/code-field-dark.svg"/>
-          <img src="./svg/code-field.svg" alt="代码田" style="width:100%; max-width:480px; height:auto;"/>
-        </picture>
+    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
+      <div style="text-align:center;">
+        <img src="https://img.shields.io/github/stars/cubeyu?style=flat-square&label=星标&color=a83232&labelColor=ede0c6" alt="星标"/>
+        <br/>
+        <img src="https://img.shields.io/github/commit-activity/t/cubeyu/cubeyu?style=flat-square&label=提交&color=2c2c2c&labelColor=ede0c6" alt="提交"/>
       </div>
     </td>
   </tr>
@@ -153,7 +135,7 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
-  <img src="./svg/divider-seal.svg" width="160" alt="分隔"/>
+  <img src="./svg/divider-seal.svg" width="180" alt="分隔"/>
 </picture></p>
 
 <!-- ════════════ 伍 · 鸿雁传书（文左 · 图右） ════════════ -->
@@ -164,13 +146,16 @@
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
-    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
+    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
       <p align="center" style="margin:14px 0 0;">
-        <a href="https://wpa.qq.com/msgrd?v=3&uin=3144855127"><img src="https://img.shields.io/badge/扫码加友-3144855127-1a1a1a?style=for-the-badge&logo=tencent-qq&logoColor=f5f0e6&labelColor=a83232" alt="QQ"/></a>
-        <a href="https://bonjour.bio/cubeyu"><img src="https://img.shields.io/badge/山水之约-bonjour.bio-a83232?style=for-the-badge&logo=link&logoColor=f5f0e6&labelColor=1a1a1a" alt="Bio"/></a>
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=3144855127"><img src="https://img.shields.io/badge/QQ-君子之交-ede0c6?style=for-the-badge&labelColor=1a1a1a" alt="QQ"/></a>
+        <a href="https://bonjour.bio/cubeyu"><img src="https://img.shields.io/badge/总览-了解更多-ede0c6?style=for-the-badge&labelColor=a83232" alt="总览"/></a>
+        <br/>
+        <a href="https://techisle.top/"><img src="https://img.shields.io/badge/主页-查阅风采-ede0c6?style=for-the-badge&labelColor=2c2c2c" alt="主页"/></a>
+        <a href="mailto:cubeyu@aliyun.com"><img src="https://img.shields.io/badge/邮箱-联系合作-ede0c6?style=for-the-badge&labelColor=5a4632" alt="邮箱"/></a>
       </p>
     </td>
-    <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
+    <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-goose-dark.svg"/>
   <img src="./svg/ink-goose.svg" alt="飞鸿传书" style="width:100%; max-width:320px; height:auto;"/>
