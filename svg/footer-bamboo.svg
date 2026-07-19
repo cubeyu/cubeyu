@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="120" viewBox="0 0 440 120">
+  <!-- 墨竹竿 -->
+  <path d="M50 115 Q 52 65 55 20" stroke="#1a1a1a" stroke-width="3.5" fill="none" opacity="0.85"/>
+  <!-- 竹节 -->
+  <circle cx="52" cy="95" r="3" fill="#1a1a1a" opacity="0.85"/>
+  <circle cx="53" cy="65" r="3" fill="#1a1a1a" opacity="0.85"/>
+  <circle cx="54" cy="38" r="3" fill="#1a1a1a" opacity="0.85"/>
+  <!-- 竹叶 -->
+  <path d="M55 32 Q 78 23 98 29 Q 80 37 55 32 Z" fill="#2c2c2c" opacity="0.8"/>
+  <path d="M54 52 Q 30 40 10 46 Q 26 54 54 52 Z" fill="#1a1a1a" opacity="0.85"/>
+  <path d="M53 72 Q 75 62 98 68 Q 79 76 53 72 Z" fill="#2c2c2c" opacity="0.75"/>
+  <path d="M55 24 Q 74 11 94 14 Q 76 24 55 24 Z" fill="#1a1a1a" opacity="0.9"/>
+  <path d="M54 88 Q 30 79 10 84 Q 26 92 54 88 Z" fill="#2c2c2c" opacity="0.7"/>
+
+  <!-- 中间题字 -->
+  <text x="220" y="65" text-anchor="middle" fill="#5a4632" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" letter-spacing="6">纸短情长 · 码海无垠</text>
+
+  <!-- 朱砂落款印章 -->
+  <rect x="355" y="55" width="55" height="55" fill="#a83232" rx="3" opacity="0.92"/>
+  <text x="382.5" y="80" text-anchor="middle" fill="#f5f0e6" font-size="15" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">cubeyu</text>
+  <text x="382.5" y="100" text-anchor="middle" fill="#f5f0e6" font-size="12" font-family="STFangsong, FangSong, 仿宋, serif">墨印</text>
+</svg>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!--
+  古风水墨 GitHub 个人主页 - 本地预览版 v2.0.0
+  作者：cubeyu
+  作用：本地浏览器预览，完整加载 Google Fonts 古风字体，呈现"理想效果"
+  与 README.md 的关系：
+    README.md 受 GitHub HTML 过滤器限制，不能用 style/class/<style>/<link>，
+    只能用 SVG 内嵌 font-family + 系统字体兜底链呈现古风字体。
+    本文件不受上述限制，可展示完整的 Google Fonts 古风字体（志莽行/马善政/龙藏等）。
+-->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>墨客 · cubeyu | 古风水墨 GitHub 主页预览 v2.0.0</title>
+
+<!-- ============ 古风字体加载（Google Fonts 中文古风字体） ============ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Zhi+Mang+Xing&family=Long+Cang&family=Liu+Jian+Mao+Cao&family=ZCOOL+XiaoWei&family=ZCOOL+QingKe+HuangYou&display=swap">
+
+<style>
+  /* ============ 全局变量（宣纸 / 水墨 / 朱砂 配色） ============ */
+  :root {
+    --paper-light: #f7f1e3;     /* 宣纸浅黄 */
+    --paper-deep: #ede0c6;      /* 宣纸深黄 */
+    --paper-edge: #ece0c0;      /* 宣纸边缘 */
+    --ink-black: #1a1a1a;       /* 浓墨 */
+    --ink-deep: #2c2c2c;        /* 深墨 */
+    --ink-gray: #5a4632;        /* 褐墨 */
+    --ink-light: #8b6f48;       /* 浅墨 */
+    --border-ink: #c9b88a;      /* 边框黄褐 */
+    --seal-red: #a83232;        /* 朱砂红 */
+    --seal-deep: #8b1a1a;       /* 深朱砂 */
+  }
+
+  /* ============ 基础样式 ============ */
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 30px 20px 60px;
+    /* 宣纸纹理底 + 水墨晕染 */
+    background:
+      radial-gradient(ellipse at 20% 10%, rgba(60,40,10,0.06) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 80%, rgba(60,40,10,0.05) 0%, transparent 50%),
+      linear-gradient(135deg, #f5efdf 0%, #ede0c6 50%, #f5efdf 100%);
+    background-attachment: fixed;
+    color: var(--ink-deep);
+    font-family: "Long Cang", "KaiTi", "STKaiti", "楷体", "华文行楷", serif;
+    font-size: 16px;
+    line-height: 1.9;
+    min-height: 100vh;
+  }
+
+  /* 宣纸纹理叠加 */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image:
+      repeating-linear-gradient(0deg, transparent 0, transparent 2px, rgba(120,90,50,0.015) 2px, rgba(120,90,50,0.015) 3px),
+      repeating-linear-gradient(90deg, transparent 0, transparent 2px, rgba(120,90,50,0.015) 2px, rgba(120,90,50,0.015) 3px);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ============ 主容器 ============ */
+  .container { max-width: 880px; margin: 0 auto; position: relative; z-index: 1; }
+
+  /* ============ 顶部 Banner ============ */
+  .banner {
+    width: 100%; height: 240px; border-radius: 12px; overflow: hidden;
+    border: 1px solid var(--border-ink);
+    box-shadow: 0 6px 20px rgba(60,40,10,0.15);
+    background: linear-gradient(180deg, #e8e0d0 0%, #d8cdb8 100%);
+  }
+  .banner svg { display: block; width: 100%; height: 100%; }
+
+  /* ============ 标题区 ============ */
+  .title-area { text-align: center; margin: 26px 0 18px; }
+  .title-main {
+    font-family: "Zhi Mang Xing", "Ma Shan Zheng", "STXingkai", "华文行楷", serif;
+    font-size: 3.2em; color: var(--ink-black); letter-spacing: 0.2em;
+    margin: 0 0 8px 0; text-shadow: 2px 2px 0 #d8c9a8; font-weight: normal;
+  }
+  .title-sub {
+    font-family: "Ma Shan Zheng", "KaiTi", "楷体", serif;
+    font-size: 1.3em; color: var(--ink-gray); letter-spacing: 0.15em; margin: 0 0 6px 0;
+  }
+  .title-quote {
+    font-family: "Long Cang", "KaiTi", "楷体", serif;
+    font-size: 1.05em; color: var(--ink-light); letter-spacing: 0.1em; font-style: italic; margin: 0;
+  }
+
+  /* ============ 朱砂分割线 ============ */
+  .divider { text-align: center; margin: 20px 0 26px; }
+
+  /* ============ 卡片公共样式 ============ */
+  .card {
+    background: linear-gradient(135deg, var(--paper-light) 0%, var(--paper-deep) 100%);
+    border: 1px solid var(--border-ink); border-radius: 12px;
+    padding: 26px 32px; margin-bottom: 18px;
+    box-shadow: 0 2px 8px rgba(60,40,10,0.08), inset 0 0 30px rgba(255,250,235,0.4);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(60,40,10,0.15), inset 0 0 30px rgba(255,250,235,0.4);
+  }
+  /* 卡片右上角装饰印章 */
+  .card::after {
+    content: ""; position: absolute; top: 14px; right: 14px;
+    width: 28px; height: 28px; background: var(--seal-red); border-radius: 3px; opacity: 0.85;
+    background-image: linear-gradient(45deg, transparent 45%, rgba(245,240,230,0.3) 45%, rgba(245,240,230,0.3) 55%, transparent 55%);
+  }
+  .card-title {
+    font-family: "Zhi Mang Xing", "Ma Shan Zheng", "STXingkai", "华文行楷", serif;
+    font-size: 1.8em; color: var(--ink-deep);
+    border-bottom: 2px solid var(--seal-deep);
+    padding-bottom: 10px; margin: 0 0 16px 0; letter-spacing: 0.12em; font-weight: normal;
+  }
+  .card-body {
+    font-family: "Long Cang", "KaiTi", "STKaiti", "楷体", serif;
+    font-size: 1.15em; color: var(--ink-deep); line-height: 2;
+  }
+  .card-body p { margin: 8px 0; }
+  .card-body b { color: var(--seal-deep); font-weight: normal; }
+  .card-body code {
+    background: #e8dcc0; padding: 1px 8px; border-radius: 4px;
+    color: var(--seal-deep); font-family: "Courier New", monospace; font-size: 0.92em;
+  }
+  .card-body a {
+    color: var(--ink-deep); text-decoration: none;
+    border-bottom: 1px dashed var(--seal-deep); transition: color 0.2s;
+  }
+  .card-body a:hover { color: var(--seal-red); }
+
+  /* ============ 徽章行 ============ */
+  .badges { text-align: center; margin-top: 18px; line-height: 2.2; }
+  .badges img { margin: 3px 4px; vertical-align: middle; transition: transform 0.2s; }
+  .badges img:hover { transform: scale(1.05); }
+
+  /* ============ 统计图 ============ */
+  .stats { text-align: center; margin-top: 16px; }
+  .stats img {
+    display: inline-block; margin: 6px 8px; border-radius: 8px;
+    border: 1px solid var(--border-ink); vertical-align: middle;
+  }
+
+  /* ============ 底部墨竹 ============ */
+  .footer { text-align: center; margin-top: 28px; padding-top: 20px; }
+  .footer-note {
+    font-family: "ZCOOL XiaoWei", "FangSong", "STFangsong", "仿宋", serif;
+    color: var(--ink-light); font-size: 0.95em; letter-spacing: 0.18em;
+    margin-top: 12px; font-style: italic;
+  }
+
+  /* ============ 飘落墨点动画 ============ */
+  @keyframes inkDrop {
+    0%   { transform: translateY(-10px) rotate(0deg); opacity: 0; }
+    20%  { opacity: 0.5; }
+    100% { transform: translateY(100vh) rotate(360deg); opacity: 0; }
+  }
+  .ink-drop {
+    position: fixed; top: -20px; width: 6px; height: 6px;
+    background: var(--ink-black); border-radius: 50%; opacity: 0.3;
+    pointer-events: none; animation: inkDrop linear infinite; z-index: 0;
+  }
+</style>
+</head>
+<body>
+
+<!-- 飘落墨点装饰 -->
+<div class="ink-drop" style="left: 8%;  animation-duration: 18s; animation-delay: 0s;"></div>
+<div class="ink-drop" style="left: 22%; animation-duration: 24s; animation-delay: 5s; width:4px; height:4px;"></div>
+<div class="ink-drop" style="left: 45%; animation-duration: 20s; animation-delay: 12s;"></div>
+<div class="ink-drop" style="left: 68%; animation-duration: 26s; animation-delay: 3s; width:5px; height:5px;"></div>
+<div class="ink-drop" style="left: 88%; animation-duration: 22s; animation-delay: 8s;"></div>
+
+<div class="container">
+
+  <!-- ============ Banner：水墨山水 SVG ============ -->
+  <div class="banner">
+    <svg viewBox="0 0 880 240" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <!-- 远山 -->
+      <path d="M0 180 Q 100 120 200 150 T 400 130 T 600 155 T 880 140 L 880 240 L 0 240 Z" fill="#1a1a1a" opacity="0.18"/>
+      <path d="M0 200 Q 120 160 240 180 T 480 165 T 720 185 T 880 175 L 880 240 L 0 240 Z" fill="#1a1a1a" opacity="0.28"/>
+      <!-- 近山 -->
+      <path d="M0 220 Q 80 180 180 200 T 380 190 T 580 205 T 880 195 L 880 240 L 0 240 Z" fill="#1a1a1a" opacity="0.45"/>
+      <!-- 雾气 -->
+      <ellipse cx="300" cy="160" rx="180" ry="14" fill="#f5f0e6" opacity="0.6"/>
+      <ellipse cx="650" cy="170" rx="160" ry="12" fill="#f5f0e6" opacity="0.55"/>
+      <!-- 孤舟 -->
+      <path d="M410 218 Q 425 214 440 218 L 438 222 Q 425 220 412 222 Z" fill="#1a1a1a" opacity="0.7"/>
+      <line x1="425" y1="218" x2="425" y2="200" stroke="#1a1a1a" stroke-width="1" opacity="0.7"/>
+      <!-- 水波 -->
+      <path d="M380 225 Q 395 222 410 225 T 440 225 T 470 225" stroke="#1a1a1a" stroke-width="0.6" fill="none" opacity="0.4"/>
+      <path d="M460 230 Q 475 227 490 230 T 520 230" stroke="#1a1a1a" stroke-width="0.6" fill="none" opacity="0.35"/>
+      <!-- 飞鸟 -->
+      <path d="M560 80 Q 565 76 570 80 Q 575 76 580 80" stroke="#1a1a1a" stroke-width="1.2" fill="none" opacity="0.6"/>
+      <path d="M620 60 Q 625 56 630 60 Q 635 56 640 60" stroke="#1a1a1a" stroke-width="1.2" fill="none" opacity="0.5"/>
+      <!-- 题字 -->
+      <text x="60" y="60" fill="#1a1a1a" opacity="0.5" font-size="22" font-family="STKaiti, KaiTi, 楷体, serif">山</text>
+      <text x="60" y="88" fill="#1a1a1a" opacity="0.5" font-size="22" font-family="STKaiti, KaiTi, 楷体, serif">水</text>
+      <text x="60" y="116" fill="#1a1a1a" opacity="0.5" font-size="22" font-family="STKaiti, KaiTi, 楷体, serif">有</text>
+      <text x="60" y="144" fill="#1a1a1a" opacity="0.5" font-size="22" font-family="STKaiti, KaiTi, 楷体, serif">相</text>
+      <text x="60" y="172" fill="#1a1a1a" opacity="0.5" font-size="22" font-family="STKaiti, KaiTi, 楷体, serif">逢</text>
+      <!-- 朱砂印 -->
+      <rect x="56" y="186" width="32" height="32" fill="#a83232" opacity="0.85" rx="2"/>
+      <text x="72" y="208" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">墨</text>
+    </svg>
+  </div>
+
+  <!-- ============ 标题区 ============ -->
+  <div class="title-area">
+    <h1 class="title-main">墨客 · cubeyu</h1>
+    <p class="title-sub">一蓑烟雨任平生 · 亦 coding 亦逍遥</p>
+    <p class="title-quote">"纸上得来终觉浅，绝知此事要躬行"</p>
+  </div>
+
+  <!-- ============ 分割线 ============ -->
+  <div class="divider">
+    <svg width="340" height="48" viewBox="0 0 340 48" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 24 Q 85 18 170 24 T 330 24" stroke="#2c2c2c" stroke-width="1.5" fill="none" opacity="0.7"/>
+      <path d="M10 24 Q 85 30 170 24 T 330 24" stroke="#1a1a1a" stroke-width="0.8" fill="none" opacity="0.5"/>
+      <rect x="152" y="9" width="30" height="30" fill="#a83232" rx="2"/>
+      <text x="167" y="30" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">墨</text>
+    </svg>
+  </div>
+
+  <!-- ============ 卡片 1：吾之简介 ============ -->
+  <div class="card">
+    <h2 class="card-title">◈ 吾之简介</h2>
+    <div class="card-body">
+      <p>余乃 <b>cubeyu</b>，居于代码之境，游走于字节之间。</p>
+      <p>喜古风之雅致，爱水墨之意韵；亦恋 <code>code</code> 之精巧，乐 <code>开源</code> 之共济。</p>
+      <p>愿以键盘为笔，以屏幕为纸，书一行行山水，绘一帧帧春秋。</p>
+    </div>
+    <div class="badges">
+      <img src="https://img.shields.io/badge/岁月-数字游民-a83232?style=flat-square&labelColor=ede0c6" alt="岁月">
+      <img src="https://img.shields.io/badge/志向-技术布道者-2c2c2c?style=flat-square&labelColor=ede0c6" alt="志向">
+      <img src="https://img.shields.io/badge/心境-闲云野鹤-5a4632?style=flat-square&labelColor=ede0c6" alt="心境">
+    </div>
+  </div>
+
+  <!-- ============ 卡片 2：所学技艺 ============ -->
+  <div class="card">
+    <h2 class="card-title">◈ 所学技艺</h2>
+    <div class="card-body">
+      <p><b>剑修（语言）：</b></p>
+      <div class="badges">
+        <img src="https://img.shields.io/badge/JavaScript-墨色-1a1a1a?style=flat-square&logo=javascript&logoColor=f7df1e" alt="JS">
+        <img src="https://img.shields.io/badge/TypeScript-墨色-1a1a1a?style=flat-square&logo=typescript&logoColor=3178c6" alt="TS">
+        <img src="https://img.shields.io/badge/Python-墨色-1a1a1a?style=flat-square&logo=python&logoColor=3776ab" alt="Python">
+        <img src="https://img.shields.io/badge/Go-墨色-1a1a1a?style=flat-square&logo=go&logoColor=00add8" alt="Go">
+      </div>
+      <p><b>阵法（框架）：</b></p>
+      <div class="badges">
+        <img src="https://img.shields.io/badge/React-朱砂-a83232?style=flat-square&logo=react&logoColor=61dafb" alt="React">
+        <img src="https://img.shields.io/badge/Vue-朱砂-a83232?style=flat-square&logo=vue.js&logoColor=42b883" alt="Vue">
+        <img src="https://img.shields.io/badge/Node.js-朱砂-a83232?style=flat-square&logo=node.js&logoColor=339933" alt="Node">
+        <img src="https://img.shields.io/badge/Next.js-朱砂-a83232?style=flat-square&logo=next.js&logoColor=000000" alt="Next">
+      </div>
+      <p><b>器物（工具）：</b></p>
+      <div class="badges">
+        <img src="https://img.shields.io/badge/Git-青墨-5a4632?style=flat-square&logo=git&logoColor=f05032" alt="Git">
+        <img src="https://img.shields.io/badge/Docker-青墨-5a4632?style=flat-square&logo=docker&logoColor=2496ed" alt="Docker">
+        <img src="https://img.shields.io/badge/Linux-青墨-5a4632?style=flat-square&logo=linux&logoColor=fcc624" alt="Linux">
+        <img src="https://img.shields.io/badge/VSCode-青墨-5a4632?style=flat-square&logo=visual-studio-code&logoColor=007acc" alt="VSCode">
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 卡片 3：得意之作 ============ -->
+  <div class="card">
+    <h2 class="card-title">◈ 得意之作</h2>
+    <div class="card-body">
+      <p><b>📂 <a href="#">project-one</a></b><br>
+      <span style="color:var(--ink-gray);">—— 一方天地，可窥星辰大海（此处替换为项目描述）</span></p>
+      <p><b>📂 <a href="#">project-two</a></b><br>
+      <span style="color:var(--ink-gray);">—— 半卷诗书，藏尽人间烟火（此处替换为项目描述）</span></p>
+      <p><b>📂 <a href="#">project-three</a></b><br>
+      <span style="color:var(--ink-gray);">—— 一壶清酒，醉看代码生花（此处替换为项目描述）</span></p>
+      <div class="badges">
+        <img src="https://img.shields.io/badge/更多作品-敬请移步仓库-a83232?style=flat-square&labelColor=ede0c6" alt="更多">
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 卡片 4：笔耕不辍（统计） ============ -->
+  <div class="card">
+    <h2 class="card-title">◈ 笔耕不辍</h2>
+    <div class="stats">
+      <img height="170" src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=graywhite&bg_color=f7f1e3,ede0c6&title_color=3a2a1a&text_color=2c2c2c&icon_color=a83232&border_color=c9b88a&hide_border=false&count_private=true" alt="GitHub Stats">
+      <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=graywhite&bg_color=f7f1e3,ede0c0&title_color=3a2a1a&text_color=2c2c2c&border_color=c9b88a" alt="Top Languages">
+      <div style="margin-top: 12px;">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=cubeyu&theme=graywhite&background=f7f1e3&stroke=c9b88a&ring=8b1a1a&fire=a83232&currStreakLabel=3a2a1a&sideNums=2c2c2c&currStreakNum=a83232&dates=5a4632" alt="Streak">
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 卡片 5：鸿雁传书 ============ -->
+  <div class="card">
+    <h2 class="card-title">◈ 鸿雁传书</h2>
+    <div class="card-body" style="text-align: center;">
+      <div class="badges">
+        <a href="https://github.com/cubeyu">
+          <img src="https://img.shields.io/badge/ GitHub -墨客居所-1a1a1a?style=for-the-badge&logo=github&logoColor=f5f0e6&labelColor=a83232" alt="GitHub">
+        </a>
+        <a href="mailto:your-email@example.com">
+          <img src="https://img.shields.io/badge/ Email -飞鸽传书-a83232?style=for-the-badge&logo=gmail&logoColor=f5f0e6&labelColor=1a1a1a" alt="Email">
+        </a>
+      </div>
+      <p style="color:var(--ink-gray); font-size: 0.95em; margin-top: 10px;">
+        <em>山高水长，江湖再见 · 期待与你共话技术春秋</em>
+      </p>
+    </div>
+  </div>
+
+  <!-- ============ 底部：墨竹 + 印章 ============ -->
+  <div class="footer">
+    <svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+      <!-- 墨竹竿 -->
+      <path d="M50 95 Q 52 55 55 18" stroke="#1a1a1a" stroke-width="3.5" fill="none" opacity="0.85"/>
+      <!-- 竹节 -->
+      <circle cx="52" cy="78" r="3" fill="#1a1a1a" opacity="0.85"/>
+      <circle cx="53" cy="55" r="3" fill="#1a1a1a" opacity="0.85"/>
+      <circle cx="54" cy="33" r="3" fill="#1a1a1a" opacity="0.85"/>
+      <!-- 竹叶 -->
+      <path d="M55 28 Q 72 20 92 25 Q 75 32 55 28 Z" fill="#2c2c2c" opacity="0.8"/>
+      <path d="M54 45 Q 32 34 12 40 Q 26 47 54 45 Z" fill="#1a1a1a" opacity="0.85"/>
+      <path d="M53 62 Q 70 54 92 60 Q 74 67 53 62 Z" fill="#2c2c2c" opacity="0.75"/>
+      <path d="M55 20 Q 70 8 90 11 Q 72 20 55 20 Z" fill="#1a1a1a" opacity="0.9"/>
+      <path d="M54 73 Q 30 65 12 70 Q 28 76 54 73 Z" fill="#2c2c2c" opacity="0.7"/>
+      <!-- 朱砂落款印章 -->
+      <rect x="330" y="45" width="44" height="44" fill="#a83232" rx="3" opacity="0.92"/>
+      <text x="352" y="65" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">cubeyu</text>
+      <text x="352" y="82" text-anchor="middle" fill="#f5f0e6" font-size="11" font-family="STFangsong, FangSong, 仿宋, serif">墨印</text>
+    </svg>
+    <div class="footer-note">— 纸短情长，码海无垠 · cubeyu 制 —</div>
+  </div>
+
+  <!-- ============ v2.0.0 说明区 ============ -->
+  <div style="margin-top: 40px; padding: 20px 24px; background: rgba(255,250,235,0.6); border: 1px dashed #c9b88a; border-radius: 8px; font-size: 0.92em; color: #5a4632; line-height: 1.8;">
+    <div style="font-family: 'ZCOOL XiaoWei', 'FangSong', serif; font-size: 1.15em; color: #8b1a1a; margin-bottom: 10px; letter-spacing: 0.1em;">◈ 关于本预览与 GitHub 实际渲染的差异</div>
+    <p style="margin: 6px 0;">本预览页加载了 <b>Google Fonts 古风字体</b>（志莽行 / 马善政 / 龙藏 / 刘建毛草 / 站酷小薇），呈现"理想效果"。</p>
+    <p style="margin: 6px 0;"><a href="./README.md" style="color:#8b1a1a; border-bottom: 1px dashed #8b1a1a; text-decoration: none;">README.md</a> 用于 GitHub 个人主页，因 GitHub HTML 过滤器会移除 <code style="background:#e8dcc0; padding:1px 6px; border-radius:4px; color:#8b1a1a;">style</code> / <code style="background:#e8dcc0; padding:1px 6px; border-radius:4px; color:#8b1a1a;">class</code> / <code style="background:#e8dcc0; padding:1px 6px; border-radius:4px; color:#8b1a1a;">&lt;style&gt;</code> / <code style="background:#e8dcc0; padding:1px 6px; border-radius:4px; color:#8b1a1a;">&lt;link&gt;</code>，故改用 <b>SVG 内嵌 font-family + 系统古风字体兜底链</b>。</p>
+    <p style="margin: 6px 0;">在 GitHub 上查看 README.md 时：</p>
+    <ul style="margin: 4px 0 6px 24px; padding: 0;">
+      <li>Windows 用户可见 <b>楷体（KaiTi）</b> / <b>仿宋（FangSong）</b></li>
+      <li>macOS 用户可见 <b>华文楷体（STKaiti）</b> / <b>华文仿宋（STFangsong）</b></li>
+      <li>Linux 用户若未装中文字体，会回退到默认 serif</li>
+    </ul>
+    <p style="margin: 6px 0;">水墨元素（远山、墨竹、印章、分割线）均为内联 SVG，GitHub 完整渲染，与本预览一致。</p>
+  </div>
+
+</div>
+
+</body>
+</html>

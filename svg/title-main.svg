@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="140" viewBox="0 0 600 140">
+  <!-- 主标题：墨客 · cubeyu -->
+  <text x="300" y="65" text-anchor="middle" fill="#1a1a1a" font-size="56" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, STSong, SimSun, 宋体, serif" font-weight="bold" letter-spacing="8">墨客 · cubeyu</text>
+  <!-- 副标题 -->
+  <text x="300" y="102" text-anchor="middle" fill="#5a4632" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" letter-spacing="6">一蓑烟雨任平生 · 亦 coding 亦逍遥</text>
+  <!-- 引言 -->
+  <text x="300" y="128" text-anchor="middle" fill="#8b6f48" font-size="14" font-family="STFangsong, FangSong, 仿宋, STKaiti, KaiTi, 楷体, serif" font-style="italic" letter-spacing="3">纸上得来终觉浅，绝知此事要躬行</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240">
+  <!-- 宣纸底色 -->
+  <rect width="880" height="240" fill="#f7f1e3"/>
+  
+  <!-- 远山（浓墨） -->
+  <path d="M0 180 Q 100 120 200 150 T 400 130 T 600 155 T 880 140 L 880 240 L 0 240 Z" fill="#1a1a1a" opacity="0.18"/>
+  
+  <!-- 中远山 -->
+  <path d="M0 200 Q 120 160 240 180 T 480 165 T 720 185 T 880 175 L 880 240 L 0 240 Z" fill="#1a1a1a" opacity="0.28"/>
+  
+  <!-- 近山 -->
+  <path d="M0 220 Q 80 180 180 200 T 380 190 T 580 205 T 880 195 L 880 240 L 0 240 Z" fill="#1a1a1a" opacity="0.45"/>
+  
+  <!-- 雾气 -->
+  <ellipse cx="300" cy="160" rx="180" ry="14" fill="#f5f0e6" opacity="0.6"/>
+  <ellipse cx="650" cy="170" rx="160" ry="12" fill="#f5f0e6" opacity="0.55"/>
+  
+  <!-- 水面 -->
+  <path d="M0 225 L 880 225 L 880 240 L 0 240 Z" fill="#1a1a1a" opacity="0.03"/>
+  
+  <!-- 水波 -->
+  <path d="M380 225 Q 395 222 410 225 T 440 225 T 470 225" stroke="#1a1a1a" stroke-width="0.6" fill="none" opacity="0.4"/>
+  <path d="M460 230 Q 475 227 490 230 T 520 230" stroke="#1a1a1a" stroke-width="0.6" fill="none" opacity="0.35"/>
+  <path d="M520 233 Q 535 230 550 233 T 580 233" stroke="#1a1a1a" stroke-width="0.6" fill="none" opacity="0.3"/>
+  
+  <!-- 孤舟 -->
+  <path d="M410 218 Q 425 214 440 218 L 438 222 Q 425 220 412 222 Z" fill="#1a1a1a" opacity="0.7"/>
+  <line x1="425" y1="218" x2="425" y2="200" stroke="#1a1a1a" stroke-width="1" opacity="0.7"/>
+  
+  <!-- 飞鸟 -->
+  <path d="M560 80 Q 565 76 570 80 Q 575 76 580 80" stroke="#1a1a1a" stroke-width="1.2" fill="none" opacity="0.6"/>
+  <path d="M620 60 Q 625 56 630 60 Q 635 56 640 60" stroke="#1a1a1a" stroke-width="1.2" fill="none" opacity="0.5"/>
+  
+  <!-- 题字：山水有相逢 -->
+  <text x="60" y="60" fill="#1a1a1a" opacity="0.5" font-size="22" font-family="STKaiti, KaiTi, 楷体, serif">山</text>
+  <text x="60" y="88" fill="#1a1a1a" opacity="0.5" font-size="22" font-family="STKaiti, KaiTi, 楷体, serif">水</text>
+  <text x="60" y="116" fill="#1a1a1a" opacity="0.5" font-size="22" font-family="STKaiti, KaiTi, 楷体, serif">有</text>
+  <text x="60" y="144" fill="#1a1a1a" opacity="0.5" font-size="22" font-family="STKaiti, KaiTi, 楷体, serif">相</text>
+  <text x="60" y="172" fill="#1a1a1a" opacity="0.5" font-size="22" font-family="STKaiti, KaiTi, 楷体, serif">逢</text>
+  
+  <!-- 朱砂印 -->
+  <rect x="56" y="186" width="32" height="32" fill="#a83232" opacity="0.85" rx="2"/>
+  <text x="72" y="208" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">墨</text>
+  
+  <!-- 边框 -->
+  <rect x="2" y="2" width="876" height="236" fill="none" stroke="#c9b88a" stroke-width="1"/>
+</svg>

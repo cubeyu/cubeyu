@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="50" viewBox="0 0 360 50">
+  <!-- 双曲线水墨横线 -->
+  <path d="M10 25 Q 90 18 180 25 T 350 25" stroke="#2c2c2c" stroke-width="1.5" fill="none" opacity="0.7"/>
+  <path d="M10 25 Q 90 32 180 25 T 350 25" stroke="#1a1a1a" stroke-width="0.8" fill="none" opacity="0.5"/>
+  <!-- 朱砂方印 -->
+  <rect x="160" y="10" width="32" height="32" fill="#a83232" rx="2"/>
+  <text x="176" y="31" text-anchor="middle" fill="#f5f0e6" font-size="15" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">墨</text>
+</svg>
