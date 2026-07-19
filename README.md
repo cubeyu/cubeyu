@@ -110,9 +110,9 @@
       <span style="display:block; font-size:16px; color:#5a4632; margin-bottom:12px;">码田深耕，未尝懈怠；<br/>一砖一瓦，皆成风景。</span>
       <img height="150" src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=graywhite&bg_color=f7f1e3,ede0c6&title_color=3a2a1a&text_color=2c2c2c&icon_color=a83232&border_color=c9b88a&count_private=true" alt="stats"/>
       <br/>
-      <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=graywhite&bg_color=f7f1e3,ede0c0&title_color=3a2a1a&text_color=2c2c2c&border_color=c9b88a" alt="langs"/>
+      <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=graywhite&bg_color=f7f1e3,ede0c6&title_color=3a2a1a&text_color=2c2c2c&border_color=c9b88a" alt="langs"/>
       <br/>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=cubeyu&theme=graywhite&background=f7f1e3&stroke=c9b88a&ring=8b1a1a&fire=a83232&currStreakLabel=3a2a1a&sideNums=2c2c2c&currStreakNum=a83232&dates=5a4632" alt="streak"/>
+      <img src="https://streak-stats.demolab.com/?user=cubeyu&theme=graywhite&background=f7f1e3&stroke=c9b88a&ring=8b1a1a&fire=a83232&currStreakLabel=3a2a1a&sideNums=2c2c2c&currStreakNum=a83232&dates=5a4632" alt="streak"/>
     </td>
   </tr>
 </table>
