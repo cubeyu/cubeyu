@@ -37,7 +37,7 @@
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.95;">
-      <span style="display:block; font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:8px;">栖身代码 · 游走字节</span>
+      <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:12px;">栖身代码 · 游走字节</div>
       余姓字 <strong style="color:#a83232;">cubeyu</strong>，栖身代码之境，游走于字节之间。<br/>
       性好古风，独爱水墨之韵；亦慕代码之巧，乐见开源之盛。<br/>
       以键盘为笔，屏幕为纸；行间写山水，帧里绘春秋。
@@ -68,22 +68,25 @@
 </picture>
     </td>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
-      <span style="display:block; font-size:16px; color:#5a4632; margin-bottom:10px;">工欲善其事，必先利其器。<br/>以下诸般技艺，皆吾涉猎之所长：</span>
-      <span style="display:block; font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 言语 —</span>
-      <img src="https://img.shields.io/badge/JavaScript-水墨-1a1a1a?style=flat-square&logo=javascript&logoColor=f7df1e" />
-      <img src="https://img.shields.io/badge/TypeScript-水墨-1a1a1a?style=flat-square&logo=typescript&logoColor=3178c6" />
-      <img src="https://img.shields.io/badge/Python-水墨-1a1a1a?style=flat-square&logo=python&logoColor=3776ab" />
-      <img src="https://img.shields.io/badge/Go-水墨-1a1a1a?style=flat-square&logo=go&logoColor=00add8" />
-      <span style="display:block; font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 框架 —</span>
-      <img src="https://img.shields.io/badge/React-朱砂-a83232?style=flat-square&logo=react&logoColor=61dafb" />
-      <img src="https://img.shields.io/badge/Vue-朱砂-a83232?style=flat-square&logo=vue.js&logoColor=42b883" />
-      <img src="https://img.shields.io/badge/Node.js-朱砂-a83232?style=flat-square&logo=node.js&logoColor=339933" />
-      <img src="https://img.shields.io/badge/Next.js-朱砂-a83232?style=flat-square&logo=next.js&logoColor=000000" />
-      <span style="display:block; font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 器用 —</span>
-      <img src="https://img.shields.io/badge/Git-松烟-5a4632?style=flat-square&logo=git&logoColor=f05032" />
-      <img src="https://img.shields.io/badge/Docker-松烟-5a4632?style=flat-square&logo=docker&logoColor=2496ed" />
-      <img src="https://img.shields.io/badge/Linux-松烟-5a4632?style=flat-square&logo=linux&logoColor=fcc624" />
-      <img src="https://img.shields.io/badge/VSCode-松烟-5a4632?style=flat-square&logo=visual-studio-code&logoColor=007acc" />
+      <div style="font-size:16px; color:#5a4632; margin-bottom:10px;">工欲善其事，必先利其器。<br/>以下诸般技艺，皆吾涉猎之所长：</div>
+      <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 言语 —</div>
+      <img src="https://img.shields.io/badge/JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=f7df1e" />
+      <img src="https://img.shields.io/badge/TypeScript-1a1a1a?style=flat-square&logo=typescript&logoColor=3178c6" />
+      <br/>
+      <img src="https://img.shields.io/badge/Python-1a1a1a?style=flat-square&logo=python&logoColor=3776ab" />
+      <img src="https://img.shields.io/badge/Go-1a1a1a?style=flat-square&logo=go&logoColor=00add8" />
+      <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 框架 —</div>
+      <img src="https://img.shields.io/badge/React-a83232?style=flat-square&logo=react&logoColor=61dafb" />
+      <img src="https://img.shields.io/badge/Vue-a83232?style=flat-square&logo=vue.js&logoColor=42b883" />
+      <br/>
+      <img src="https://img.shields.io/badge/Node.js-a83232?style=flat-square&logo=node.js&logoColor=339933" />
+      <img src="https://img.shields.io/badge/Next.js-a83232?style=flat-square&logo=next.js&logoColor=000000" />
+      <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 器用 —</div>
+      <img src="https://img.shields.io/badge/Git-5a4632?style=flat-square&logo=git&logoColor=f05032" />
+      <img src="https://img.shields.io/badge/Docker-5a4632?style=flat-square&logo=docker&logoColor=2496ed" />
+      <br/>
+      <img src="https://img.shields.io/badge/Linux-5a4632?style=flat-square&logo=linux&logoColor=fcc624" />
+      <img src="https://img.shields.io/badge/VSCode-5a4632?style=flat-square&logo=visual-studio-code&logoColor=007acc" />
     </td>
   </tr>
 </table>
@@ -99,10 +102,13 @@
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:2;">
-      <span style="display:block; font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:8px;">码海拾遗 · 聊记数作</span>
+      <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:12px;">码海拾遗 · 聊记数作</div>
+      <div style="font-size:14px; color:#5a4632; font-style:italic; margin-bottom:8px;">作品整理中，容日后续录。</div>
+      <!--
       <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">project-one</a></strong> · 一方天地，藏星海之微光<br/>
       <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">project-two</a></strong> · 半卷诗书，掩世俗之烟火<br/>
       <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">project-three</a></strong> · 一壶浊酒，醉看代码生花
+      -->
       <p align="center" style="margin:14px 0 0;">
         <img src="https://img.shields.io/badge/More-Works%20in%20Repo-a83232?style=flat-square&labelColor=ede0c6" />
       </p>
@@ -154,12 +160,12 @@
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.95; text-align:center;">
-      <span style="display:block; font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:8px;">山水有相逢</span>
+      <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:12px;">山水有相逢</div>
       愿与诸君论道技术、共话开源。<br/>
       若得片言，幸甚至哉。
       <p align="center" style="margin:14px 0 0;">
-        <a href="https://github.com/cubeyu"><img src="https://img.shields.io/badge/GitHub-Profile-1a1a1a?style=for-the-badge&logo=github&logoColor=f5f0e6&labelColor=a83232" alt="GitHub"/></a>
-        <a href="mailto:hello@techisle.top"><img src="https://img.shields.io/badge/Email-Contact-a83232?style=for-the-badge&logo=gmail&logoColor=f5f0e6&labelColor=1a1a1a" alt="Email"/></a>
+        <a href="https://github.com/cubeyu"><img src="https://img.shields.io/badge/山水有相逢-1a1a1a?style=for-the-badge&logo=github&logoColor=f5f0e6&labelColor=a83232" alt="GitHub"/></a>
+        <a href="mailto:hello@techisle.top"><img src="https://img.shields.io/badge/鸿雁传书-a83232?style=for-the-badge&logo=gmail&logoColor=f5f0e6&labelColor=1a1a1a" alt="Email"/></a>
       </p>
     </td>
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
@@ -186,22 +192,3 @@
   <source media="(prefers-color-scheme: dark)" srcset="./svg/footer-signature-dark.svg"/>
   <img src="./svg/footer-signature.svg" width="320" alt="cubeyu 谨识"/>
 </picture></p>
-
-<br/>
-
-<details>
-<summary>📜 设计说明 · Design Notes</summary>
-
-**古风水墨卡片 · GitHub 合规方案 v4.1**
-
-- GitHub 会剥离 `<style>` / `<script>` / 内联 `<svg>` / `class` / `id`，故所有装饰均以「SVG → `<img>` 引用」呈现。
-- **暗色模式适配**：每张 SVG 均生成暗色版（透明底 + 宣纸色元素），通过 `<picture>` + `<source media="(prefers-color-scheme: dark)">` 自动切换，无需 JavaScript。
-- **首屏 hero 合并**：原 banner + title 两张 SVG 合并为单一 `hero-main.svg`，标题叠于山水画天空区域，引语上提至首屏可见区。
-- 本版采用**相对路径**引用仓库内 `svg/` 资源（提交后 github.com 直接渲染），保持 README 简洁可维护。
-- **水墨晕染**：插画以 SVG `feGaussianBlur` 滤镜 + 径向渐变模拟墨色洇染；远中近三层山峦叠加透明度营造空间。
-- **左右交替布局**：以 HTML `<table>` 双列实现「文左图右 / 图左文右」逐段交替，卡片用内联样式（纸色底 `#f7f1e3`、金线边 `#c9b88a`、圆角、柔影）统一视觉。
-- **古典字体**：SVG 与正文均使用 `STKaiti / KaiTi / 楷体 / STFangsong / FangSong / 仿宋 / serif` 字体栈，依观者系统回退。
-- **朱砂印**：每幅插画与章节标题均缀朱红方印（#a83232），暗色模式下朱砂保持，强化古风印记。
-- 统计卡片沿用 shields.io 与水墨配色（graywhite 主题 + 宣纸底），与整体调性统一。
-
-</details>
