@@ -85,7 +85,7 @@
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
-    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9;">
+    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
       <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:12px;">码海拾遗 · 聊记数作</div>
       <strong style="color:#a83232;"><a href="https://techisle.top/" style="color:#a83232; text-decoration:none;">得意作·壹</a></strong> · 一方天地，藏星海之微光<br/>
       <strong style="color:#a83232;"><a href="https://bonjour.bio/cubeyu" style="color:#a83232; text-decoration:none;">得意作·贰</a></strong> · 半卷诗书，掩世俗之烟火<br/>
@@ -123,7 +123,7 @@
     </td>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
       <div style="text-align:center;">
-        <img src="https://img.shields.io/github/followers/cubeyu?style=flat-square&label=同道&color=a83232&labelColor=ede0c6" alt="同道"/>
+        <img src="https://img.shields.io/badge/意气-随缘相交-a83232?style=flat-square&labelColor=ede0c6" alt="意气"/>
         <br/>
         <img src="https://img.shields.io/badge/笔耕-岁岁年年-2c2c2c?style=flat-square&labelColor=ede0c6" alt="笔耕"/>
       </div>
@@ -148,11 +148,10 @@
   <tr>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
       <p align="center" style="margin:14px 0 0;">
-        <a href="https://wpa.qq.com/msgrd?v=3&uin=3144855127"><img src="https://img.shields.io/badge/QQ-君子之交-ede0c6?style=for-the-badge&labelColor=1a1a1a" alt="QQ"/></a>
-        <a href="https://bonjour.bio/cubeyu"><img src="https://img.shields.io/badge/总览-了解更多-ede0c6?style=for-the-badge&labelColor=a83232" alt="总览"/></a>
-        <br/>
-        <a href="https://techisle.top/"><img src="https://img.shields.io/badge/主页-查阅风采-ede0c6?style=for-the-badge&labelColor=2c2c2c" alt="主页"/></a>
-        <a href="mailto:cubeyu@aliyun.com"><img src="https://img.shields.io/badge/邮箱-联系合作-ede0c6?style=for-the-badge&labelColor=5a4632" alt="邮箱"/></a>
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=3144855127"><img src="https://img.shields.io/badge/QQ-君子之交-ede0c6?style=flat-square&labelColor=1a1a1a" alt="QQ"/></a><br/>
+        <a href="https://bonjour.bio/cubeyu"><img src="https://img.shields.io/badge/总览-了解更多-ede0c6?style=flat-square&labelColor=a83232" alt="总览"/></a><br/>
+        <a href="https://techisle.top/"><img src="https://img.shields.io/badge/主页-查阅风采-ede0c6?style=flat-square&labelColor=2c2c2c" alt="主页"/></a><br/>
+        <a href="mailto:cubeyu@aliyun.com"><img src="https://img.shields.io/badge/邮箱-联系合作-ede0c6?style=flat-square&labelColor=5a4632" alt="邮箱"/></a>
       </p>
     </td>
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px;">
