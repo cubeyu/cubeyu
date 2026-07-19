@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="300" viewBox="0 0 360 300">
+  <defs>
+    <filter id="b5" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <radialGradient id="splash5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1a1a1a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- 墨晕 -->
+  <ellipse cx="200" cy="210" rx="120" ry="40" fill="url(#splash5)" filter="url(#b5)"/>
+  <!-- 砚台 -->
+  <ellipse cx="200" cy="215" rx="70" ry="26" fill="#2c2c2c" opacity="0.85"/>
+  <ellipse cx="200" cy="210" rx="44" ry="15" fill="#1a1a1a" opacity="0.7"/>
+  <!-- 毛笔 -->
+  <g>
+    <line x1="120" y1="40" x2="190" y2="180" stroke="#5a4632" stroke-width="6" stroke-linecap="round"/>
+    <rect x="114" y="32" width="11" height="18" rx="2" fill="#a83232" transform="rotate(12 119 41)"/>
+    <path d="M186 178 Q 195 200 200 215 Q 192 205 184 196 Z" fill="#1a1a1a"/>
+  </g>
+  <!-- 墨点 -->
+  <circle cx="150" cy="230" r="3" fill="#1a1a1a" opacity="0.6"/>
+  <circle cx="252" cy="224" r="2.5" fill="#1a1a1a" opacity="0.5"/>
+  <circle cx="272" cy="236" r="2" fill="#1a1a1a" opacity="0.4"/>
+  <!-- 竖题 -->
+  <text x="40" y="80" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">笔</text>
+  <text x="40" y="108" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">耕</text>
+  <text x="40" y="136" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">不</text>
+  <text x="40" y="164" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">辍</text>
+
+  <!-- 朱砂印 -->
+  <rect x="300" y="225" width="34" height="34" fill="#a83232" rx="2" opacity="0.9"/>
+  <text x="317" y="247" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">墨</text>
+</svg>

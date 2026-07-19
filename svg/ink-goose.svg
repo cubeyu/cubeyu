@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="300" viewBox="0 0 360 300">
+  <defs>
+    <filter id="b4" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+    <radialGradient id="wg4" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#1a1a1a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="360" height="300" fill="url(#wg4)"/>
+  <!-- 远山 -->
+  <g filter="url(#b4)" opacity="0.25"><path d="M0 220 Q 120 190 240 210 T 360 205 L360 260 L0 260 Z" fill="#1a1a1a"/></g>
+  <!-- 水纹 -->
+  <g stroke="#1a1a1a" stroke-width="1" opacity="0.5" fill="none">
+    <path d="M0 255 Q 90 250 180 255 T 360 255"/>
+    <path d="M0 262 Q 120 258 240 262 T 360 262"/>
+  </g>
+  <!-- 飞鸿（人字阵） -->
+  <g stroke="#1a1a1a" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M150 90 Q 160 82 170 90 Q 180 82 190 90"/>
+    <path d="M120 105 Q 130 97 140 105 Q 150 97 160 105"/>
+    <path d="M180 105 Q 190 97 200 105 Q 210 97 220 105"/>
+    <path d="M95 122 Q 104 115 113 122 Q 122 115 131 122"/>
+    <path d="M205 122 Q 214 115 223 122 Q 232 115 241 122"/>
+  </g>
+  <!-- 竖题 -->
+  <text x="40" y="80" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">鸿</text>
+  <text x="40" y="108" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">雁</text>
+  <text x="40" y="136" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">传</text>
+  <text x="40" y="164" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">书</text>
+
+  <!-- 朱砂印 -->
+  <rect x="300" y="225" width="34" height="34" fill="#a83232" rx="2" opacity="0.9"/>
+  <text x="317" y="247" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">信</text>
+</svg>

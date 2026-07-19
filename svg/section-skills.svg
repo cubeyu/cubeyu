@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="52" viewBox="0 0 320 52">
+  <rect x="16" y="12" width="28" height="28" fill="#a83232" rx="2" opacity="0.92"/>
+  <text x="30" y="32" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">贰</text>
+  <text x="58" y="36" fill="#3a2a1a" font-size="26" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" font-weight="bold" letter-spacing="4">所学技艺</text>
+  <line x1="16" y1="46" x2="304" y2="46" stroke="#8b1a1a" stroke-width="1.5"/>
+</svg>

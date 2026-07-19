@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="300" viewBox="0 0 360 300">
+  <defs>
+    <filter id="b3" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+    <radialGradient id="mg3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f5f0e6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f5f0e6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- 月华 -->
+  <circle cx="280" cy="75" r="48" fill="url(#mg3)"/>
+  <circle cx="280" cy="75" r="22" fill="#f5f0e6" opacity="0.85"/>
+  <!-- 远山 -->
+  <g filter="url(#b3)" opacity="0.3"><path d="M0 170 Q 90 130 180 160 T 360 150 L360 220 L0 220 Z" fill="#1a1a1a"/></g>
+  <!-- 近山 -->
+  <g opacity="0.65"><path d="M0 200 Q 100 175 200 195 T 360 190 L360 260 L0 260 Z" fill="#1a1a1a"/></g>
+  <!-- 楼阁 -->
+  <g fill="#1a1a1a" opacity="0.9">
+    <path d="M120 150 Q 160 120 200 150 L 188 158 Q 160 138 132 158 Z"/>
+    <path d="M128 158 L 192 158 L 186 164 L 134 164 Z"/>
+    <rect x="140" y="164" width="40" height="34"/>
+    <rect x="144" y="164" width="3" height="34"/>
+    <rect x="174" y="164" width="3" height="34"/>
+    <rect x="132" y="198" width="56" height="6"/>
+  </g>
+  <!-- 山台 -->
+  <path d="M110 210 Q 160 198 210 210 L 210 232 L 110 232 Z" fill="#2c2c2c" opacity="0.6"/>
+  <!-- 雾 -->
+  <ellipse cx="180" cy="208" rx="100" ry="8" fill="#f7f1e3" opacity="0.5" filter="url(#b3)"/>
+  <!-- 飞鸟 -->
+  <path d="M60 90 Q 65 86 70 90 Q 75 86 80 90" stroke="#1a1a1a" stroke-width="1.1" fill="none" opacity="0.55"/>
+
+  <!-- 竖题 -->
+  <text x="40" y="70" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">得</text>
+  <text x="40" y="98" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">意</text>
+  <text x="40" y="126" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">之</text>
+  <text x="40" y="154" fill="#1a1a1a" opacity="0.55" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif">作</text>
+
+  <!-- 朱砂印 -->
+  <rect x="300" y="225" width="34" height="34" fill="#a83232" rx="2" opacity="0.9"/>
+  <text x="317" y="247" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">作</text>
+</svg>
