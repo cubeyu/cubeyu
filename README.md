@@ -70,19 +70,16 @@
       <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 言语 —</div>
       <img src="https://img.shields.io/badge/JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=f7df1e" />
       <img src="https://img.shields.io/badge/TypeScript-1a1a1a?style=flat-square&logo=typescript&logoColor=3178c6" />
-      <br/>
       <img src="https://img.shields.io/badge/Python-1a1a1a?style=flat-square&logo=python&logoColor=3776ab" />
       <img src="https://img.shields.io/badge/Go-1a1a1a?style=flat-square&logo=go&logoColor=00add8" />
       <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 框架 —</div>
       <img src="https://img.shields.io/badge/React-a83232?style=flat-square&logo=react&logoColor=61dafb" />
       <img src="https://img.shields.io/badge/Vue-a83232?style=flat-square&logo=vue.js&logoColor=42b883" />
-      <br/>
       <img src="https://img.shields.io/badge/Node.js-a83232?style=flat-square&logo=node.js&logoColor=339933" />
       <img src="https://img.shields.io/badge/Next.js-a83232?style=flat-square&logo=next.js&logoColor=000000" />
       <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 器用 —</div>
       <img src="https://img.shields.io/badge/Git-5a4632?style=flat-square&logo=git&logoColor=f05032" />
       <img src="https://img.shields.io/badge/Docker-5a4632?style=flat-square&logo=docker&logoColor=2496ed" />
-      <br/>
       <img src="https://img.shields.io/badge/Linux-5a4632?style=flat-square&logo=linux&logoColor=fcc624" />
       <img src="https://img.shields.io/badge/VSCode-5a4632?style=flat-square&logo=visual-studio-code&logoColor=007acc" />
     </td>
