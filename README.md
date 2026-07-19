@@ -1,144 +1,287 @@
+<!--
+  古风水墨 GitHub 个人主页 v2.0.0
+  作者：cubeyu
+  重构说明：
+    旧版（v1.0.0）大量使用 style="..." / class="..." / <style> / <link>，
+    但 GitHub HTML 过滤器会完全移除这些，导致主页在 GitHub 上塌成默认样式。
+    v2.0.0 改为：
+      1. 完全不使用 style / class / <style> / <link>（GitHub 会过滤）
+      2. 关键文字（标题 / 印章 / 章节名）用内联 <svg><text font-family="..."> 嵌入
+         font-family 走"系统古风字体兜底链"，Windows/macOS 用户可看到楷体/仿宋
+      3. 卡片布局用 <table> 的 bgcolor / cellpadding / cellspacing / align 等允许属性
+      4. 水墨元素（远山 / 墨竹 / 印章 / 分割线）全部内联 SVG，GitHub 完整渲染
+      5. 正文字体交给 GitHub 默认，用 emoji / Unicode 符号营造古风意境
+    字体兜底链：STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, STSong, SimSun, 宋体, serif
+-->
+
+<!-- ============ 顶部 Banner：水墨山水卷轴 ============ -->
 <div align="center">
+  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chinese%20traditional%20ink%20wash%20painting%2C%20misty%20mountains%20and%20rivers%2C%20distant%20peaks%20in%20fog%2C%20a%20small%20boat%20on%20calm%20water%2C%20minimalist%20sumi-e%20style%2C%20monochrome%20black%20ink%20on%20rice%20paper%2C%20elegant%20and%20serene&image_size=landscape_16_9" width="100%" alt="水墨山水卷轴" />
+</div>
 
-<!-- 水墨横幅 - 内嵌SVG -->
-<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="inkBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#1a1a1a"/>
-      <stop offset="50%" style="stop-color:#2d2d2d"/>
-      <stop offset="100%" style="stop-color:#1a1a1a"/>
-    </linearGradient>
-    <filter id="inkBlur">
-      <feGaussianBlur stdDeviation="1.5"/>
-    </filter>
-  </defs>
-  <!-- 背景 -->
-  <rect width="800" height="120" fill="url(#inkBg)"/>
-  <!-- 远山轮廓 -->
-  <path d="M0,120 L0,80 Q50,60 100,75 T200,65 T300,70 T400,60 T500,68 T600,58 T700,65 T800,55 L800,120Z" fill="#0d0d0d" opacity="0.6"/>
-  <path d="M0,120 L0,95 Q80,85 150,92 T300,88 T450,95 T600,87 T800,90 L800,120Z" fill="#000" opacity="0.8"/>
-  <!-- 墨点装饰 -->
-  <circle cx="120" cy="40" r="8" fill="#333" opacity="0.4" filter="url(#inkBlur)"/>
-  <circle cx="680" cy="35" r="12" fill="#2a2a2a" opacity="0.3" filter="url(#inkBlur)"/>
-  <circle cx="350" cy="30" r="5" fill="#444" opacity="0.5" filter="url(#inkBlur)"/>
-  <!-- 竹枝 -->
-  <path d="M750,120 Q760,90 755,60" stroke="#3d5c3d" stroke-width="2" fill="none" opacity="0.4"/>
-  <path d="M755,85 Q770,80 775,75" stroke="#4a6b4a" stroke-width="1.5" fill="none" opacity="0.3"/>
-  <path d="M752,70 Q740,65 735,60" stroke="#4a6b4a" stroke-width="1.5" fill="none" opacity="0.3"/>
-  <!-- 标题 -->
-  <text x="400" y="58" font-family="serif" font-size="36" fill="#e8e0d0" text-anchor="middle" font-weight="bold" letter-spacing="8">墨韵代码</text>
-  <!-- 副标题 -->
-  <text x="400" y="85" font-family="serif" font-size="14" fill="#8a7f6b" text-anchor="middle" letter-spacing="4">CODE IN INK</text>
-  <!-- 印章 -->
-  <rect x="720" y="75" width="28" height="28" fill="#8b2500" opacity="0.8" rx="2"/>
-  <text x="734" y="93" font-family="serif" font-size="10" fill="#e8e0d0" text-anchor="middle">cubeyu</text>
-</svg>
+<!-- ============ 主标题区（SVG 嵌入楷体，GitHub 完整渲染） ============ -->
+<div align="center">
+  <svg width="560" height="130" viewBox="0 0 560 130" xmlns="http://www.w3.org/2000/svg">
+    <!-- 主标题：墨客 · cubeyu -->
+    <text x="280" y="62" text-anchor="middle" fill="#1a1a1a" font-size="56" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, STSong, SimSun, 宋体, serif" font-weight="bold" letter-spacing="8">墨客 · cubeyu</text>
+    <!-- 副标题 -->
+    <text x="280" y="98" text-anchor="middle" fill="#5a4632" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" letter-spacing="6">一蓑烟雨任平生 · 亦 coding 亦逍遥</text>
+    <!-- 引言 -->
+    <text x="280" y="122" text-anchor="middle" fill="#8b6f48" font-size="14" font-family="STFangsong, FangSong, 仿宋, STKaiti, KaiTi, 楷体, serif" font-style="italic" letter-spacing="3">纸上得来终觉浅，绝知此事要躬行</text>
+  </svg>
+</div>
 
-<!-- 个人简介 - 紧凑横排 -->
-<table>
-<tr>
-<td width="60%">
+<!-- ============ 朱砂分割线 + 印章（SVG 内嵌） ============ -->
+<div align="center">
+  <svg width="340" height="48" viewBox="0 0 340 48" xmlns="http://www.w3.org/2000/svg">
+    <!-- 双曲线水墨横线 -->
+    <path d="M10 24 Q 85 18 170 24 T 330 24" stroke="#2c2c2c" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M10 24 Q 85 30 170 24 T 330 24" stroke="#1a1a1a" stroke-width="0.8" fill="none" opacity="0.5"/>
+    <!-- 朱砂方印 -->
+    <rect x="152" y="9" width="30" height="30" fill="#a83232" rx="2"/>
+    <text x="167" y="30" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">墨</text>
+  </svg>
+</div>
 
-**`cubeyu`** &nbsp;|&nbsp; 全栈开发 &nbsp;|&nbsp; 开源论道
+<!-- ============ 卡片 1：吾之简介 ============ -->
+<!-- 外层 table 做边框色，内层 table 做卡片背景色（GitHub 允许 bgcolor/cellpadding） -->
+<table align="center" bgcolor="#c9b88a" cellpadding="0" cellspacing="0" width="92%">
+<tr><td>
+<table bgcolor="#f7f1e3" cellpadding="24" cellspacing="0" width="100%">
+<tr><td>
 
-> 代码如诗，逻辑如画。以键盘为笔，书写数字山水。
+<!-- 章节标题（SVG 嵌入楷体） -->
+<div align="center">
+  <svg width="220" height="44" viewBox="0 0 220 44" xmlns="http://www.w3.org/2000/svg">
+    <text x="110" y="30" text-anchor="middle" fill="#3a2a1a" font-size="28" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" font-weight="bold" letter-spacing="6">◈ 吾之简介</text>
+    <line x1="20" y1="38" x2="200" y2="38" stroke="#8b1a1a" stroke-width="1.5"/>
+  </svg>
+</div>
 
-</td>
-<td align="right">
+余乃 **cubeyu**，居于代码之境，游走于字节之间。
 
-![Profile Views](https://komarev.com/ghpvc/?username=cubeyu&color=2d2d2d&style=flat)
+喜古风之雅致，爱水墨之意韵；亦恋 `code` 之精巧，乐 `开源` 之共济。
 
-</td>
-</tr>
+愿以键盘为笔，以屏幕为纸，书一行行山水，绘一帧帧春秋。
+
+<div align="center">
+  <img src="https://img.shields.io/badge/岁月-数字游民-a83232?style=flat-square&labelColor=ede0c6" alt="岁月" />
+  <img src="https://img.shields.io/badge/志向-技术布道者-2c2c2c?style=flat-square&labelColor=ede0c6" alt="志向" />
+  <img src="https://img.shields.io/badge/心境-闲云野鹤-5a4632?style=flat-square&labelColor=ede0c6" alt="心境" />
+</div>
+
+</td></tr>
+</table>
+</td></tr>
 </table>
 
+<!-- 卡片间距 -->
+<div align="center">&nbsp;</div>
+
+<!-- ============ 卡片 2：所学技艺 ============ -->
+<table align="center" bgcolor="#c9b88a" cellpadding="0" cellspacing="0" width="92%">
+<tr><td>
+<table bgcolor="#f7f1e3" cellpadding="24" cellspacing="0" width="100%">
+<tr><td>
+
+<div align="center">
+  <svg width="220" height="44" viewBox="0 0 220 44" xmlns="http://www.w3.org/2000/svg">
+    <text x="110" y="30" text-anchor="middle" fill="#3a2a1a" font-size="28" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" font-weight="bold" letter-spacing="6">◈ 所学技艺</text>
+    <line x1="20" y1="38" x2="200" y2="38" stroke="#8b1a1a" stroke-width="1.5"/>
+  </svg>
 </div>
 
-<!-- 技艺 - 紧凑表格布局 -->
-<h3 align="center">技艺</h3>
+**🗡 剑修（语言）：**
 
-<table align="center">
-<tr><td align="center" colspan="5"><b>笔墨 · 编程语言</b></td></tr>
-<tr>
-<td><img src="https://img.shields.io/badge/JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/TypeScript-1a1a1a?style=flat-square&logo=typescript&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/Python-1a1a1a?style=flat-square&logo=python&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/Go-1a1a1a?style=flat-square&logo=go&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/Rust-1a1a1a?style=flat-square&logo=rust&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-</tr>
-<tr><td align="center" colspan="5"><b>丹青 · 前端</b></td></tr>
-<tr>
-<td><img src="https://img.shields.io/badge/React-1a1a1a?style=flat-square&logo=react&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/Vue-1a1a1a?style=flat-square&logo=vue.js&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/Next.js-1a1a1a?style=flat-square&logo=next.js&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/Tailwind-1a1a1a?style=flat-square&logo=tailwind-css&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/HTML5-1a1a1a?style=flat-square&logo=html5&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-</tr>
-<tr><td align="center" colspan="5"><b>机关 · 后端</b></td></tr>
-<tr>
-<td><img src="https://img.shields.io/badge/Node.js-1a1a1a?style=flat-square&logo=node.js&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/Django-1a1a1a?style=flat-square&logo=django&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/PostgreSQL-1a1a1a?style=flat-square&logo=postgresql&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/MongoDB-1a1a1a?style=flat-square&logo=mongodb&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/Redis-1a1a1a?style=flat-square&logo=redis&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-</tr>
-<tr><td align="center" colspan="5"><b>器物 · 工具</b></td></tr>
-<tr>
-<td><img src="https://img.shields.io/badge/Docker-1a1a1a?style=flat-square&logo=docker&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/Git-1a1a1a?style=flat-square&logo=git&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/GitHub_Actions-1a1a1a?style=flat-square&logo=github-actions&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-<td><img src="https://img.shields.io/badge/VS_Code-1a1a1a?style=flat-square&logo=visual-studio-code&logoColor=e8e0d0&labelColor=1a1a1a"></td>
-</tr>
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-墨色-1a1a1a?style=flat-square&logo=javascript&logoColor=f7df1e" alt="JS" />
+  <img src="https://img.shields.io/badge/TypeScript-墨色-1a1a1a?style=flat-square&logo=typescript&logoColor=3178c6" alt="TS" />
+  <img src="https://img.shields.io/badge/Python-墨色-1a1a1a?style=flat-square&logo=python&logoColor=3776ab" alt="Python" />
+  <img src="https://img.shields.io/badge/Go-墨色-1a1a1a?style=flat-square&logo=go&logoColor=00add8" alt="Go" />
+</p>
+
+**🏛 阵法（框架）：**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-朱砂-a83232?style=flat-square&logo=react&logoColor=61dafb" alt="React" />
+  <img src="https://img.shields.io/badge/Vue-朱砂-a83232?style=flat-square&logo=vue.js&logoColor=42b883" alt="Vue" />
+  <img src="https://img.shields.io/badge/Node.js-朱砂-a83232?style=flat-square&logo=node.js&logoColor=339933" alt="Node" />
+  <img src="https://img.shields.io/badge/Next.js-朱砂-a83232?style=flat-square&logo=next.js&logoColor=000000" alt="Next" />
+</p>
+
+**🏺 器物（工具）：**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-青墨-5a4632?style=flat-square&logo=git&logoColor=f05032" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-青墨-5a4632?style=flat-square&logo=docker&logoColor=2496ed" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-青墨-5a4632?style=flat-square&logo=linux&logoColor=fcc624" alt="Linux" />
+  <img src="https://img.shields.io/badge/VSCode-青墨-5a4632?style=flat-square&logo=visual-studio-code&logoColor=007acc" alt="VSCode" />
+</p>
+
+</td></tr>
+</table>
+</td></tr>
 </table>
 
-<!-- 统计 - 并排紧凑 -->
-<h3 align="center">修行统计</h3>
+<div align="center">&nbsp;</div>
+
+<!-- ============ 卡片 3：得意之作 ============ -->
+<table align="center" bgcolor="#c9b88a" cellpadding="0" cellspacing="0" width="92%">
+<tr><td>
+<table bgcolor="#f7f1e3" cellpadding="24" cellspacing="0" width="100%">
+<tr><td>
 
 <div align="center">
-<table>
-<tr>
-<td><img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=graywhite&hide_border=true&bg_color=1a1a1a&title_color=e8e0d0&icon_color=8b2500&text_color=d0c8b8&card_width=400" alt="stats"></td>
-<td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=graywhite&hide_border=true&bg_color=1a1a1a&title_color=e8e0d0&text_color=d0c8b8&card_width=300" alt="langs"></td>
-</tr>
+  <svg width="220" height="44" viewBox="0 0 220 44" xmlns="http://www.w3.org/2000/svg">
+    <text x="110" y="30" text-anchor="middle" fill="#3a2a1a" font-size="28" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" font-weight="bold" letter-spacing="6">◈ 得意之作</text>
+    <line x1="20" y1="38" x2="200" y2="38" stroke="#8b1a1a" stroke-width="1.5"/>
+  </svg>
+</div>
+
+📂 **[project-one](#)**  
+　—— 一方天地，可窥星辰大海（此处替换为项目描述）
+
+📂 **[project-two](#)**  
+　—— 半卷诗书，藏尽人间烟火（此处替换为项目描述）
+
+📂 **[project-three](#)**  
+　—— 一壶清酒，醉看代码生花（此处替换为项目描述）
+
+<div align="center">
+  <img src="https://img.shields.io/badge/更多作品-敬请移步仓库-a83232?style=flat-square&labelColor=ede0c6" alt="更多作品" />
+</div>
+
+</td></tr>
+</table>
+</td></tr>
 </table>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=cubeyu&theme=dark&hide_border=true&background=1a1a1a&stroke=8b2500&ring=8b2500&fire=d0c8b8&currStreakLabel=e8e0d0&sideLabels=e8e0d0&currStreakNum=e8e0d0&sideNums=e8e0d0&dates=d0c8b8" alt="streak" width="700">
+<div align="center">&nbsp;</div>
 
-<!-- 墨龙图 -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cubeyu/cubeyu/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cubeyu/cubeyu/output/github-contribution-grid-snake.svg">
-  <img alt="墨龙" src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/github-contribution-grid-snake.svg" width="700">
-</picture>
-
-</div>
-
-<!-- 活动轨迹 -->
-<h3 align="center">修行轨迹</h3>
+<!-- ============ 卡片 4：笔耕不辍（GitHub 统计） ============ -->
+<table align="center" bgcolor="#c9b88a" cellpadding="0" cellspacing="0" width="92%">
+<tr><td>
+<table bgcolor="#f7f1e3" cellpadding="24" cellspacing="0" width="100%">
+<tr><td>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=cubeyu&theme=github-compact&hide_border=true&bg_color=1a1a1a&color=d0c8b8&line=8b2500&point=e8e0d0&area=true&area_color=8b2500" width="700" alt="activity">
+  <svg width="220" height="44" viewBox="0 0 220 44" xmlns="http://www.w3.org/2000/svg">
+    <text x="110" y="30" text-anchor="middle" fill="#3a2a1a" font-size="28" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" font-weight="bold" letter-spacing="6">◈ 笔耕不辍</text>
+    <line x1="20" y1="38" x2="200" y2="38" stroke="#8b1a1a" stroke-width="1.5"/>
+  </svg>
 </div>
 
-<!-- 底部 -->
 <div align="center">
-
----
-
-**飞鸽传书** &nbsp;|&nbsp; [Email](mailto:your.email@example.com) &nbsp;|&nbsp; [GitHub](https://github.com/cubeyu)
-
-<!-- 底部水墨SVG -->
-<svg width="700" height="60" viewBox="0 0 700 60" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="inkFade" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#2d2d2d"/>
-      <stop offset="100%" style="stop-color:#1a1a1a"/>
-    </linearGradient>
-  </defs>
-  <rect width="700" height="60" fill="url(#inkFade)"/>
-  <path d="M0,60 L0,40 Q100,20 200,35 T400,25 T600,35 T700,20 L700,60Z" fill="#1a1a1a" opacity="0.8"/>
-  <text x="350" y="45" font-family="serif" font-size="16" fill="#8a7f6b" text-anchor="middle" letter-spacing="6">山水有相逢</text>
-</svg>
-
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=graywhite&bg_color=f7f1e3,ede0c6&title_color=3a2a1a&text_color=2c2c2c&icon_color=a83232&border_color=c9b88a&hide_border=false&count_private=true" alt="GitHub Stats" />
+  <br />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=graywhite&bg_color=f7f1e3,ede0c0&title_color=3a2a1a&text_color=2c2c2c&border_color=c9b88a" alt="Top Languages" />
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cubeyu&theme=graywhite&background=f7f1e3&stroke=c9b88a&ring=8b1a1a&fire=a83232&currStreakLabel=3a2a1a&sideNums=2c2c2c&currStreakNum=a83232&dates=5a4632" alt="Streak Stats" />
 </div>
+
+</td></tr>
+</table>
+</td></tr>
+</table>
+
+<div align="center">&nbsp;</div>
+
+<!-- ============ 卡片 5：鸿雁传书 ============ -->
+<table align="center" bgcolor="#c9b88a" cellpadding="0" cellspacing="0" width="92%">
+<tr><td>
+<table bgcolor="#f7f1e3" cellpadding="24" cellspacing="0" width="100%">
+<tr><td>
+
+<div align="center">
+  <svg width="220" height="44" viewBox="0 0 220 44" xmlns="http://www.w3.org/2000/svg">
+    <text x="110" y="30" text-anchor="middle" fill="#3a2a1a" font-size="28" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" font-weight="bold" letter-spacing="6">◈ 鸿雁传书</text>
+    <line x1="20" y1="38" x2="200" y2="38" stroke="#8b1a1a" stroke-width="1.5"/>
+  </svg>
+</div>
+
+<div align="center">
+  <a href="https://github.com/cubeyu">
+    <img src="https://img.shields.io/badge/GitHub-墨客居所-1a1a1a?style=for-the-badge&logo=github&logoColor=f5f0e6&labelColor=a83232" alt="GitHub" />
+  </a>
+  <br />
+  <br />
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Email-飞鸽传书-a83232?style=for-the-badge&logo=gmail&logoColor=f5f0e6&labelColor=1a1a1a" alt="Email" />
+  </a>
+</div>
+
+<div align="center">
+  <svg width="420" height="34" viewBox="0 0 420 34" xmlns="http://www.w3.org/2000/svg">
+    <text x="210" y="24" text-anchor="middle" fill="#5a4632" font-size="16" font-family="STFangsong, FangSong, 仿宋, STKaiti, KaiTi, 楷体, serif" font-style="italic" letter-spacing="4">山高水长，江湖再见 · 期待与你共话技术春秋</text>
+  </svg>
+</div>
+
+</td></tr>
+</table>
+</td></tr>
+</table>
+
+<!-- ============ 底部：墨竹 + 朱砂落款印章（全 SVG） ============ -->
+<div align="center">
+  <svg width="420" height="110" viewBox="0 0 420 110" xmlns="http://www.w3.org/2000/svg">
+    <!-- 墨竹竿 -->
+    <path d="M50 105 Q 52 60 55 18" stroke="#1a1a1a" stroke-width="3.5" fill="none" opacity="0.85"/>
+    <!-- 竹节 -->
+    <circle cx="52" cy="85" r="3" fill="#1a1a1a" opacity="0.85"/>
+    <circle cx="53" cy="60" r="3" fill="#1a1a1a" opacity="0.85"/>
+    <circle cx="54" cy="35" r="3" fill="#1a1a1a" opacity="0.85"/>
+    <!-- 竹叶 -->
+    <path d="M55 30 Q 75 22 95 27 Q 78 34 55 30 Z" fill="#2c2c2c" opacity="0.8"/>
+    <path d="M54 48 Q 32 36 12 42 Q 28 50 54 48 Z" fill="#1a1a1a" opacity="0.85"/>
+    <path d="M53 65 Q 72 56 95 62 Q 76 70 53 65 Z" fill="#2c2c2c" opacity="0.75"/>
+    <path d="M55 22 Q 72 10 92 13 Q 74 22 55 22 Z" fill="#1a1a1a" opacity="0.9"/>
+    <path d="M54 78 Q 30 70 12 75 Q 28 82 54 78 Z" fill="#2c2c2c" opacity="0.7"/>
+
+    <!-- 中间题字 -->
+    <text x="210" y="60" text-anchor="middle" fill="#5a4632" font-size="20" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" letter-spacing="6">纸短情长 · 码海无垠</text>
+
+    <!-- 朱砂落款印章 -->
+    <rect x="340" y="50" width="50" height="50" fill="#a83232" rx="3" opacity="0.92"/>
+    <text x="365" y="72" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">cubeyu</text>
+    <text x="365" y="90" text-anchor="middle" fill="#f5f0e6" font-size="11" font-family="STFangsong, FangSong, 仿宋, serif">墨印</text>
+  </svg>
+</div>
+
+<!-- ============ 文末签名 ============ -->
+<div align="center">
+  <svg width="320" height="28" viewBox="0 0 320 28" xmlns="http://www.w3.org/2000/svg">
+    <text x="160" y="20" text-anchor="middle" fill="#8b6f48" font-size="13" font-family="STFangsong, FangSong, 仿宋, STKaiti, KaiTi, 楷体, serif" font-style="italic" letter-spacing="6">— cubeyu 制 · 岁次丙午 —</text>
+  </svg>
+</div>
+
+<!-- ============ 折叠区：关于本次设计（details 在 GitHub 上原生支持） ============ -->
+<details>
+<summary>📜 关于本主页的设计说明（点击展开）</summary>
+
+**字体策略**
+
+GitHub README 的 HTML 过滤器会移除 `style` / `class` / `<style>` / `<link>` 等 CSS 渲染入口，因此**普通文字无法直接改成古风字体**。
+
+本主页的关键文字（主标题、副标题、章节名、印章、引言、落款）均采用**内联 SVG `<text>` 元素**，通过 SVG 表现属性 `font-family` 指定系统古风字体兜底链：
+
+```
+STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, STSong, SimSun, 宋体, serif
+```
+
+- Windows 用户：可看到楷体（KaiTi）/ 仿宋（FangSong）
+- macOS 用户：可看到华文楷体（STKaiti）/ 华文仿宋（STFangsong）
+- Linux 用户：若未安装中文字体，会回退到默认 serif
+
+**卡片实现**
+
+卡片背景与边框通过嵌套 `<table>` 配合 `bgcolor` / `cellpadding` / `cellspacing` / `align` / `width` 等 HTML4 属性实现，这些属性在 GitHub 的 sanitizer 白名单内。
+
+**水墨元素**
+
+远山、墨竹、印章、分割线均为内联 SVG，无外部依赖，GitHub 完整渲染。
+
+**完整古风字体效果**
+
+如需欣赏完整的 Google Fonts 古风字体（如「志莽行」「马善政」「龙藏」），请查看 [preview.html](./preview.html)。
+
+</details>
