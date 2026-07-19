@@ -9,16 +9,10 @@
 
 <br/>
 
-<p align="center" style="font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; max-width:680px;">
-  余姓字 <strong style="color:#a83232;">cubeyu</strong>，栖身代码之境，游走于字节之间。<br/>
-  性好古风，独爱水墨之韵；亦慕代码之巧，乐见开源之盛。<br/>
-  愿以键盘为笔，屏幕为纸，行间写山水，帧里绘春秋。
-</p>
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Era-Digital%20Nomad-a83232?style=flat-square&labelColor=ede0c6" />
-  <img src="https://img.shields.io/badge/Aspiration-Technical%20Evangelist-2c2c2c?style=flat-square&labelColor=ede0c6" />
-  <img src="https://img.shields.io/badge/Mind-Free%20Spirit-5a4632?style=flat-square&labelColor=ede0c6" />
+  <img src="https://img.shields.io/badge/时代-数字游民-a83232?style=flat-square&labelColor=ede0c6" />
+  <img src="https://img.shields.io/badge/志向-技术布道-2c2c2c?style=flat-square&labelColor=ede0c6" />
+  <img src="https://img.shields.io/badge/心性-自由之心-5a4632?style=flat-square&labelColor=ede0c6" />
 </p>
 
 <br/>
@@ -52,6 +46,11 @@
 </table>
 
 <br/>
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
+  <img src="./svg/divider-seal.svg" width="200" alt="分隔"/>
+</picture></p>
 
 <!-- ════════════ 贰 · 所学技艺（图左 · 文右） ════════════ -->
 <p align="center"><picture>
@@ -93,6 +92,11 @@
 
 <br/>
 
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
+  <img src="./svg/divider-seal.svg" width="200" alt="分隔"/>
+</picture></p>
+
 <!-- ════════════ 叁 · 得意之作（文左 · 图右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-projects-dark.svg"/>
@@ -124,6 +128,11 @@
 
 <br/>
 
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
+  <img src="./svg/divider-seal.svg" width="200" alt="分隔"/>
+</picture></p>
+
 <!-- ════════════ 肆 · 笔耕不辍（图左 · 文右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-stats-dark.svg"/>
@@ -139,17 +148,23 @@
 </picture>
     </td>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
-      <span style="display:block; font-size:16px; color:#5a4632; margin-bottom:12px;">码田深耕，未尝懈怠；<br/>一砖一瓦，皆成风景。</span>
-      <img height="150" src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=graywhite&bg_color=f7f1e3,ede0c6&title_color=3a2a1a&text_color=2c2c2c&icon_color=a83232&border_color=c9b88a&count_private=true" alt="stats"/>
+      <div style="font-size:16px; color:#5a4632; margin-bottom:12px;">码田深耕，未尝懈怠；<br/>一砖一瓦，皆成风景。</div>
+      <img height="150" src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=graywhite&bg_color=f7f1e3&title_color=3a2a1a&text_color=2c2c2c&icon_color=a83232&hide_border=true&count_private=true" alt="stats"/>
       <br/>
-      <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=graywhite&bg_color=f7f1e3,ede0c6&title_color=3a2a1a&text_color=2c2c2c&border_color=c9b88a" alt="langs"/>
+      <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=graywhite&bg_color=f7f1e3&title_color=3a2a1a&text_color=2c2c2c&hide_border=true" alt="langs"/>
       <br/>
-      <img src="https://streak-stats.demolab.com/?user=cubeyu&theme=graywhite&background=f7f1e3&stroke=c9b88a&ring=8b1a1a&fire=a83232&currStreakLabel=3a2a1a&sideNums=2c2c2c&currStreakNum=a83232&dates=5a4632" alt="streak"/>
+      <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:8px 0 4px;">— 连续笔耕 —</div>
+      <img src="https://streak-stats.demolab.com/?user=cubeyu&theme=graywhite&background=f7f1e3&stroke=f7f1e3&ring=8b1a1a&fire=a83232&currStreakLabel=3a2a1a&sideNums=2c2c2c&currStreakNum=a83232&dates=5a4632" alt="streak"/>
     </td>
   </tr>
 </table>
 
 <br/>
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
+  <img src="./svg/divider-seal.svg" width="200" alt="分隔"/>
+</picture></p>
 
 <!-- ════════════ 伍 · 鸿雁传书（文左 · 图右） ════════════ -->
 <p align="center"><picture>
