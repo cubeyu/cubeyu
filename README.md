@@ -39,7 +39,7 @@
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-landscape-dark.svg"/>
-  <img src="./svg/ink-landscape.svg" alt="山水孤舟" style="width:100%; max-width:320px; height:auto;"/>
+  <img src="./svg/ink-landscape.svg" alt="山水孤舟" style="width:100%; height:auto;"/>
 </picture>
     </td>
   </tr>
@@ -63,11 +63,10 @@
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-bamboo-dark.svg"/>
-  <img src="./svg/ink-bamboo.svg" alt="墨竹劲节" style="width:100%; max-width:320px; height:auto;"/>
+  <img src="./svg/ink-bamboo.svg" alt="墨竹劲节" style="width:100%; height:auto;"/>
 </picture>
     </td>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
-      <div style="font-size:16px; color:#5a4632; margin-bottom:10px;">工欲善其事，必先利其器。<br/>以下诸般技艺，皆吾涉猎之所长：</div>
       <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:10px 0 4px;">— 言语 —</div>
       <img src="https://img.shields.io/badge/JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=f7df1e" />
       <img src="https://img.shields.io/badge/TypeScript-1a1a1a?style=flat-square&logo=typescript&logoColor=3178c6" />
@@ -120,7 +119,7 @@
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-pavilion-dark.svg"/>
-  <img src="./svg/ink-pavilion.svg" alt="楼阁得意图" style="width:100%; max-width:320px; height:auto;"/>
+  <img src="./svg/ink-pavilion.svg" alt="楼阁得意图" style="width:100%; height:auto;"/>
 </picture>
     </td>
   </tr>
@@ -144,14 +143,14 @@
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-brush-dark.svg"/>
-  <img src="./svg/ink-brush.svg" alt="笔墨纸砚" style="width:100%; max-width:320px; height:auto;"/>
+  <img src="./svg/ink-brush.svg" alt="笔墨纸砚" style="width:100%; height:auto;"/>
 </picture>
     </td>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
-      <div style="font-size:16px; color:#5a4632; margin-bottom:12px;">码田深耕，未尝懈怠；<br/>一砖一瓦，皆成风景。</div>
-      <img height="150" src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=graywhite&bg_color=f7f1e3&title_color=3a2a1a&text_color=2c2c2c&icon_color=a83232&hide_border=true&count_private=true" alt="stats"/>
+      <img src="https://img.shields.io/github/stars/cubeyu?style=flat-square&label=星标&color=a83232&labelColor=ede0c6" />
+      <img src="https://img.shields.io/github/followers/cubeyu?style=flat-square&label=关注&color=2c2c2c&labelColor=ede0c6" />
       <br/>
-      <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=graywhite&bg_color=f7f1e3&title_color=3a2a1a&text_color=2c2c2c&hide_border=true" alt="langs"/>
+      <img src="https://img.shields.io/badge/主要言语-JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=f7df1e" />
       <br/>
       <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:8px 0 4px;">— 连续笔耕 —</div>
       <img src="https://streak-stats.demolab.com/?user=cubeyu&theme=graywhite&background=f7f1e3&stroke=f7f1e3&ring=8b1a1a&fire=a83232&currStreakLabel=3a2a1a&sideNums=2c2c2c&currStreakNum=a83232&dates=5a4632" alt="streak"/>
@@ -179,14 +178,14 @@
       愿与诸君论道技术、共话开源。<br/>
       若得片言，幸甚至哉。
       <p align="center" style="margin:14px 0 0;">
-        <a href="https://github.com/cubeyu"><img src="https://img.shields.io/badge/山水有相逢-1a1a1a?style=for-the-badge&logo=github&logoColor=f5f0e6&labelColor=a83232" alt="GitHub"/></a>
-        <a href="mailto:hello@techisle.top"><img src="https://img.shields.io/badge/鸿雁传书-a83232?style=for-the-badge&logo=gmail&logoColor=f5f0e6&labelColor=1a1a1a" alt="Email"/></a>
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=3144855127"><img src="https://img.shields.io/badge/扫码加友-3144855127-1a1a1a?style=for-the-badge&logo=tencent-qq&logoColor=f5f0e6&labelColor=a83232" alt="QQ"/></a>
+        <a href="https://bonjour.bio/cubeyu"><img src="https://img.shields.io/badge/山水之约-bonjour.bio-a83232?style=for-the-badge&logo=link&logoColor=f5f0e6&labelColor=1a1a1a" alt="Bio"/></a>
       </p>
     </td>
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-goose-dark.svg"/>
-  <img src="./svg/ink-goose.svg" alt="飞鸿传书" style="width:100%; max-width:320px; height:auto;"/>
+  <img src="./svg/ink-goose.svg" alt="飞鸿传书" style="width:100%; height:auto;"/>
 </picture>
     </td>
   </tr>
