@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260">
+  <!-- 宣纸底色 -->
+  <rect width="880" height="260" fill="#f7f1e3"/>
+
+  <!-- 飞鸟 -->
+  <path d="M560 35 Q 565 31 570 35 Q 575 31 580 35" stroke="#1a1a1a" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M620 20 Q 625 16 630 20 Q 635 16 640 20" stroke="#1a1a1a" stroke-width="1.2" fill="none" opacity="0.4"/>
+
+  <!-- 标题半透明背景条 -->
+  <rect x="100" y="55" width="680" height="72" fill="#f7f1e3" opacity="0.65" rx="6"/>
+
+  <!-- 主标题 -->
+  <text x="440" y="97" text-anchor="middle" fill="#1a1a1a" font-size="48" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" font-weight="bold" letter-spacing="8">墨客 · cubeyu</text>
+  <!-- 副标题 -->
+  <text x="440" y="120" text-anchor="middle" fill="#5a4632" font-size="16" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" letter-spacing="5">一蓑烟雨任平生 · 亦 coding 亦逍遥</text>
+
+  <!-- 远山 -->
+  <path d="M0 160 Q 100 100 200 130 T 400 110 T 600 135 T 880 120 L 880 260 L 0 260 Z" fill="#1a1a1a" opacity="0.18"/>
+  <!-- 中远山 -->
+  <path d="M0 180 Q 120 140 240 160 T 480 145 T 720 165 T 880 155 L 880 260 L 0 260 Z" fill="#1a1a1a" opacity="0.28"/>
+  <!-- 近山 -->
+  <path d="M0 200 Q 80 160 180 180 T 380 170 T 580 185 T 880 175 L 880 260 L 0 260 Z" fill="#1a1a1a" opacity="0.45"/>
+
+  <!-- 雾气 -->
+  <ellipse cx="300" cy="140" rx="180" ry="14" fill="#f5f0e6" opacity="0.6"/>
+  <ellipse cx="650" cy="150" rx="160" ry="12" fill="#f5f0e6" opacity="0.55"/>
+
+  <!-- 水面 -->
+  <path d="M0 245 L 880 245 L 880 260 L 0 260 Z" fill="#1a1a1a" opacity="0.03"/>
+  <!-- 水波 -->
+  <path d="M380 245 Q 395 242 410 245 T 440 245 T 470 245" stroke="#1a1a1a" stroke-width="0.6" fill="none" opacity="0.4"/>
+  <path d="M460 250 Q 475 247 490 250 T 520 250" stroke="#1a1a1a" stroke-width="0.6" fill="none" opacity="0.35"/>
+
+  <!-- 孤舟 -->
+  <path d="M410 238 Q 425 234 440 238 L 438 242 Q 425 240 412 242 Z" fill="#1a1a1a" opacity="0.7"/>
+  <line x1="425" y1="238" x2="425" y2="220" stroke="#1a1a1a" stroke-width="1" opacity="0.7"/>
+
+  <!-- 朱砂印(右下) -->
+  <rect x="820" y="218" width="32" height="32" fill="#a83232" opacity="0.85" rx="2"/>
+  <text x="836" y="240" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">墨</text>
+
+  <!-- 边框 -->
+  <rect x="2" y="2" width="876" height="256" fill="none" stroke="#c9b88a" stroke-width="1"/>
+</svg>

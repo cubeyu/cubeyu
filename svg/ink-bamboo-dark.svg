@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="300" viewBox="0 0 360 300">
+  <defs>
+    <filter id="bleed2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+    <radialGradient id="wash2" cx="30%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#ede0c6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ede0c6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="360" height="300" fill="url(#wash2)"/>
+
+  <!-- 主竹竿 -->
+  <path d="M120 295 Q 124 200 128 110 Q 130 60 132 20" stroke="#ede0c6" stroke-width="6" fill="none" opacity="0.9"/>
+  <!-- 竹节 -->
+  <g stroke="#ede0c6" stroke-width="1" opacity="0.9">
+    <line x1="118" y1="250" x2="134" y2="250"/>
+    <line x1="120" y1="200" x2="136" y2="200"/>
+    <line x1="122" y1="150" x2="138" y2="150"/>
+    <line x1="124" y1="100" x2="140" y2="100"/>
+  </g>
+  <!-- 次竿 -->
+  <path d="M180 295 Q 182 220 184 160 Q 186 120 188 95" stroke="#d3cbb5" stroke-width="3.5" fill="none" opacity="0.7"/>
+  <!-- 竹叶 -->
+  <g fill="#ede0c6">
+    <path d="M132 30 Q 165 18 195 28 Q 165 40 132 30 Z" opacity="0.85"/>
+    <path d="M130 55 Q 100 42 75 50 Q 102 60 130 55 Z" opacity="0.8"/>
+    <path d="M134 80 Q 170 70 200 82 Q 168 92 134 80 Z" opacity="0.75"/>
+    <path d="M132 110 Q 102 100 78 108 Q 104 116 132 110 Z" opacity="0.7"/>
+    <path d="M136 135 Q 168 126 196 138 Q 166 146 136 135 Z" opacity="0.7"/>
+  </g>
+  <!-- 晕染底 -->
+  <ellipse cx="150" cy="270" rx="120" ry="20" fill="#ede0c6" opacity="0.12" filter="url(#bleed2)"/>
+
+  <!-- 竖题 -->
+  <text x="250" y="92" fill="#a89070" font-size="22" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" letter-spacing="4">劲</text>
+  <text x="250" y="122" fill="#a89070" font-size="22" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" letter-spacing="4">节</text>
+  <text x="250" y="152" fill="#a89070" font-size="22" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" letter-spacing="4">虚</text>
+  <text x="250" y="182" fill="#a89070" font-size="22" font-family="STKaiti, KaiTi, 楷体, STFangsong, FangSong, 仿宋, serif" letter-spacing="4">心</text>
+
+  <!-- 朱砂印 -->
+  <rect x="295" y="235" width="34" height="34" fill="#a83232" rx="2" opacity="0.9"/>
+  <text x="312" y="257" text-anchor="middle" fill="#f5f0e6" font-size="14" font-family="STFangsong, FangSong, 仿宋, serif" font-weight="bold">技</text>
+</svg>
