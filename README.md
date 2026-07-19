@@ -89,12 +89,7 @@
   </tr>
 </table>
 
-<br/>
 
-<p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
-  <img src="./svg/divider-seal.svg" width="160" alt="分隔"/>
-</picture></p>
 
 <!-- ════════════ 叁 · 得意之作（文左 · 图右） ════════════ -->
 <p align="center"><picture>
@@ -147,17 +142,12 @@
       <img src="https://img.shields.io/badge/主要言语-JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=f7df1e" />
       <br/>
       <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:8px 0 4px;">— 连续笔耕 —</div>
-      <img src="https://streak-stats.demolab.com/?user=cubeyu&theme=graywhite&background=f7f1e3&stroke=f7f1e3&ring=8b1a1a&fire=a83232&currStreakLabel=3a2a1a&sideNums=2c2c2c&currStreakNum=a83232&dates=5a4632" alt="streak"/>
+      <img src="https://streak-stats.demolab.com/?user=cubeyu&theme=graywhite&background=f7f1e3&stroke=f7f1e3&ring=8b1a1a&fire=a83232&currStreakLabel=3a2a1a&sideNums=2c2c2c&currStreakNum=a83232&dates=5a4632" alt="streak" style="width:100%; max-width:495px; height:auto;"/>
     </td>
   </tr>
 </table>
 
-<br/>
 
-<p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
-  <img src="./svg/divider-seal.svg" width="160" alt="分隔"/>
-</picture></p>
 
 <!-- ════════════ 伍 · 鸿雁传书（文左 · 图右） ════════════ -->
 <p align="center"><picture>
@@ -169,8 +159,10 @@
   <tr>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
       <p align="center" style="margin:14px 0 0;">
-        <a href="https://wpa.qq.com/msgrd?v=3&uin=3144855127"><img src="https://img.shields.io/badge/扫码加友-3144855127-1a1a1a?style=for-the-badge&logo=tencent-qq&logoColor=f5f0e6&labelColor=a83232" alt="QQ"/></a>
-        <a href="https://bonjour.bio/cubeyu"><img src="https://img.shields.io/badge/山水之约-bonjour.bio-a83232?style=for-the-badge&logo=link&logoColor=f5f0e6&labelColor=1a1a1a" alt="Bio"/></a>
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=3144855127"><img src="https://img.shields.io/badge/QQ-3144855127-1a1a1a?style=for-the-badge&logo=tencent-qq&logoColor=f5f0e6&labelColor=a83232" alt="QQ"/></a>
+        <a href="https://bonjour.bio/cubeyu"><img src="https://img.shields.io/badge/总览-bonjour.bio-a83232?style=for-the-badge&logo=link&logoColor=f5f0e6&labelColor=1a1a1a" alt="总览"/></a>
+        <br/>
+        <a href="mailto:cubeyu@aliyun.com"><img src="https://img.shields.io/badge/邮箱-cubeyu%40aliyun.com-5a4632?style=for-the-badge&logo=gmail&logoColor=f5f0e6&labelColor=ede0c6" alt="邮箱"/></a>
       </p>
     </td>
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
