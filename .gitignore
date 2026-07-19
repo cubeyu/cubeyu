@@ -3,3 +3,4 @@
 
 # 临时序列化文件
 svg/s*.txt
+.solomd/

@@ -25,12 +25,12 @@
 <!-- ════════════ 壹 · 吾之简介（文左 · 图右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-about-dark.svg"/>
-  <img src="./svg/section-about.svg" width="320" alt="壹 吾之简介"/>
+  <img src="./svg/section-about.svg" style="width:100%; max-width:360px; height:auto;" alt="壹 吾之简介"/>
 </picture></p>
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
-    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.95;">
+    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9;">
       <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:12px;">栖身代码 · 游走字节</div>
       余姓字 <strong style="color:#a83232;">cubeyu</strong>，栖身代码之境，游走于字节之间。<br/>
       性好古风，独爱水墨之韵；亦慕代码之巧，乐见开源之盛。<br/>
@@ -49,13 +49,13 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
-  <img src="./svg/divider-seal.svg" width="200" alt="分隔"/>
+  <img src="./svg/divider-seal.svg" width="240" alt="分隔"/>
 </picture></p>
 
 <!-- ════════════ 贰 · 所学技艺（图左 · 文右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-skills-dark.svg"/>
-  <img src="./svg/section-skills.svg" width="320" alt="贰 所学技艺"/>
+  <img src="./svg/section-skills.svg" style="width:100%; max-width:360px; height:auto;" alt="贰 所学技艺"/>
 </picture></p>
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
@@ -93,25 +93,22 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
-  <img src="./svg/divider-seal.svg" width="200" alt="分隔"/>
+  <img src="./svg/divider-seal.svg" width="160" alt="分隔"/>
 </picture></p>
 
 <!-- ════════════ 叁 · 得意之作（文左 · 图右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-projects-dark.svg"/>
-  <img src="./svg/section-projects.svg" width="320" alt="叁 得意之作"/>
+  <img src="./svg/section-projects.svg" style="width:100%; max-width:360px; height:auto;" alt="叁 得意之作"/>
 </picture></p>
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
-    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:2;">
+    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9;">
       <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:12px;">码海拾遗 · 聊记数作</div>
-      <div style="font-size:14px; color:#5a4632; font-style:italic; margin-bottom:8px;">作品整理中，容日后续录。</div>
-      <!--
-      <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">project-one</a></strong> · 一方天地，藏星海之微光<br/>
-      <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">project-two</a></strong> · 半卷诗书，掩世俗之烟火<br/>
-      <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">project-three</a></strong> · 一壶浊酒，醉看代码生花
-      -->
+      <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">得意作·壹</a></strong> · 一方天地，藏星海之微光<br/>
+      <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">得意作·贰</a></strong> · 半卷诗书，掩世俗之烟火<br/>
+      <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">得意作·叁</a></strong> · 一壶浊酒，醉看代码生花
       <p align="center" style="margin:14px 0 0;">
         <img src="https://img.shields.io/badge/More-Works%20in%20Repo-a83232?style=flat-square&labelColor=ede0c6" />
       </p>
@@ -129,13 +126,13 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
-  <img src="./svg/divider-seal.svg" width="200" alt="分隔"/>
+  <img src="./svg/divider-seal.svg" width="240" alt="分隔"/>
 </picture></p>
 
 <!-- ════════════ 肆 · 笔耕不辍（图左 · 文右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-stats-dark.svg"/>
-  <img src="./svg/section-stats.svg" width="320" alt="肆 笔耕不辍"/>
+  <img src="./svg/section-stats.svg" style="width:100%; max-width:360px; height:auto;" alt="肆 笔耕不辍"/>
 </picture></p>
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
@@ -147,9 +144,6 @@
 </picture>
     </td>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
-      <img src="https://img.shields.io/github/stars/cubeyu?style=flat-square&label=星标&color=a83232&labelColor=ede0c6" />
-      <img src="https://img.shields.io/github/followers/cubeyu?style=flat-square&label=关注&color=2c2c2c&labelColor=ede0c6" />
-      <br/>
       <img src="https://img.shields.io/badge/主要言语-JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=f7df1e" />
       <br/>
       <div style="font-size:13px; color:#8b1a1a; font-weight:bold; letter-spacing:2px; margin:8px 0 4px;">— 连续笔耕 —</div>
@@ -162,21 +156,18 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/divider-seal-dark.svg"/>
-  <img src="./svg/divider-seal.svg" width="200" alt="分隔"/>
+  <img src="./svg/divider-seal.svg" width="160" alt="分隔"/>
 </picture></p>
 
 <!-- ════════════ 伍 · 鸿雁传书（文左 · 图右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-contact-dark.svg"/>
-  <img src="./svg/section-contact.svg" width="320" alt="伍 鸿雁传书"/>
+  <img src="./svg/section-contact.svg" style="width:100%; max-width:360px; height:auto;" alt="伍 鸿雁传书"/>
 </picture></p>
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
-    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.95; text-align:center;">
-      <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:12px;">山水有相逢</div>
-      愿与诸君论道技术、共话开源。<br/>
-      若得片言，幸甚至哉。
+    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
       <p align="center" style="margin:14px 0 0;">
         <a href="https://wpa.qq.com/msgrd?v=3&uin=3144855127"><img src="https://img.shields.io/badge/扫码加友-3144855127-1a1a1a?style=for-the-badge&logo=tencent-qq&logoColor=f5f0e6&labelColor=a83232" alt="QQ"/></a>
         <a href="https://bonjour.bio/cubeyu"><img src="https://img.shields.io/badge/山水之约-bonjour.bio-a83232?style=for-the-badge&logo=link&logoColor=f5f0e6&labelColor=1a1a1a" alt="Bio"/></a>
@@ -204,5 +195,5 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/footer-signature-dark.svg"/>
-  <img src="./svg/footer-signature.svg" width="320" alt="cubeyu 谨识"/>
+  <img src="./svg/footer-signature.svg" style="width:100%; max-width:360px; height:auto;" alt="cubeyu 谨识"/>
 </picture></p>
