@@ -30,7 +30,7 @@
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
   <tr>
-    <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9;">
+    <td width="50%" valign="middle" align="center" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
       <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:4px;">栖身代码 · 游走字节</div>
       亦慕代码之巧，乐见开源之盛<br/>以键盘为笔，屏幕为纸<br/>行间写山水，帧里绘春秋
     </td>
@@ -87,8 +87,8 @@
   <tr>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9;">
       <div style="font-size:18px; font-weight:bold; color:#1a1a1a; letter-spacing:2px; margin-bottom:12px;">码海拾遗 · 聊记数作</div>
-      <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">得意作·壹</a></strong> · 一方天地，藏星海之微光<br/>
-      <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">得意作·贰</a></strong> · 半卷诗书，掩世俗之烟火<br/>
+      <strong style="color:#a83232;"><a href="https://techisle.top/" style="color:#a83232; text-decoration:none;">得意作·壹</a></strong> · 一方天地，藏星海之微光<br/>
+      <strong style="color:#a83232;"><a href="https://bonjour.bio/cubeyu" style="color:#a83232; text-decoration:none;">得意作·贰</a></strong> · 半卷诗书，掩世俗之烟火<br/>
       <strong style="color:#a83232;"><a href="https://github.com/cubeyu" style="color:#a83232; text-decoration:none;">得意作·叁</a></strong> · 一壶浊酒，醉看代码生花
     </td>
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px;">
@@ -123,9 +123,9 @@
     </td>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:16px 20px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
       <div style="text-align:center;">
-        <img src="https://img.shields.io/github/stars/cubeyu?style=flat-square&label=星标&color=a83232&labelColor=ede0c6" alt="星标"/>
+        <img src="https://img.shields.io/github/followers/cubeyu?style=flat-square&label=同道&color=a83232&labelColor=ede0c6" alt="同道"/>
         <br/>
-        <img src="https://img.shields.io/github/commit-activity/t/cubeyu/cubeyu?style=flat-square&label=提交&color=2c2c2c&labelColor=ede0c6" alt="提交"/>
+        <img src="https://img.shields.io/badge/笔耕-岁岁年年-2c2c2c?style=flat-square&labelColor=ede0c6" alt="笔耕"/>
       </div>
     </td>
   </tr>
