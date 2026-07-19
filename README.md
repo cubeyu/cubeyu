@@ -5,6 +5,8 @@
 
 我专注于使用 Python + TypeScript/Node.js 构建 AI 驱动的 Web 应用，擅长 LLM 应用开发、RAG 系统、前端界面与云端部署。从提示词工程到 Docker 容器化，我独立负责 AI 产品的全流程落地。
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=cubeyu)](https://github.com/anuraghazra/github-readme-stats)
+
 - 🔭 目前在做：AI 应用开发、LLM 集成、个人知识库工具
 - 🌱 学习：LangChain、Next.js、RAG 架构优化
 - 💼 求职中：AI 应用开发工程师 / AI产品经理
