@@ -1,118 +1,115 @@
-<!-- GitHub Profile README - 卡片式设计 -->
+<!-- GitHub Profile README - 古风水墨画风格 -->
 <!-- 作者: cubeyu -->
 
 <div align="center">
 
-<!-- 动态打字机效果欢迎标题 -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=800&color=00D9FF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+cubeyu!;Welcome+to+my+GitHub+Profile!;Full-Stack+Developer+%F0%9F%9A%80;Open+Source+Enthusiast+%E2%9C%A8" alt="Typing SVG" />
+<!-- 水墨画风格顶部横幅 -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2C2C2C,50:4A4A4A,100:2C2C2C&height=200&section=header&text=墨韵代码&fontSize=60&fontColor=F5F0E8&fontFamily=Ma+Shan+Zheng&animation=fadeIn&stroke=C9372C&strokeWidth=2" alt="墨韵代码" />
 
-<!-- 访客计数器 & 关注按钮 -->
+<!-- 个人印章效果 -->
 <p>
-  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
-  <a href="https://github.com/cubeyu?tab=followers">
-    <img src="https://img.shields.io/github/followers/cubeyu?label=Followers&style=flat-square&color=0e75b6" alt="Followers" />
-  </a>
-  <a href="https://github.com/cubeyu?tab=stars">
-    <img src="https://img.shields.io/github/stars/cubeyu?label=Stars&style=flat-square&color=FFD700" alt="Stars" />
-  </a>
+  <img src="https://img.shields.io/badge/墨友-cubeyu-C9372C?style=flat-square&labelColor=2C2C2C&color=C9372C&logoColor=F5F0E8" alt="印章" />
+  <img src="https://komarev.com/ghpvc/?username=cubeyu&label=访客&color=7CB9A8&style=flat-square" alt="访客" />
 </p>
 
-<!-- 个人标语 -->
-<blockquote>
-  <p><em>💡 代码是逻辑的诗，设计是视觉的歌</em></p>
-</blockquote>
+<!-- 竖排座右铭 -->
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Ma+Shan+Zheng&size=28&duration=3000&pause=1000&color=C9372C&center=true&vCenter=true&width=400&lines=行到水穷处;坐看云起时" alt="座右铭" />
+</p>
 
 </div>
 
 ---
 
-<!-- 关于我卡片 -->
-<h2 align="center">🎴 关于我</h2>
+<!-- 关于我 - 卷轴风格 -->
+<h2 align="center">📜 关于我</h2>
 
 <div align="center">
 
-| 🔭 **当前工作** | 🌱 **正在学习** | 💬 **技术交流** | ⚡ **有趣事实** |
-|:---:|:---:|:---:|:---:|
-| 全栈开发 & 开源贡献 | 云原生 & AI 应用 | 欢迎讨论任何技术话题 | 热爱探索新技术 |
+| 属性 | 内容 |
+|:---:|:---|
+| **道号** | cubeyu |
+| **修行** | 全栈开发 |
+| **洞府** | GitHub |
+| **志趣** | 开源论道 |
 
 </div>
 
-<!-- 技术栈卡片 -->
-<h2 align="center">🛠️ 技术栈</h2>
+> <p align="center"><em>「代码如诗，逻辑如画。<br/>以键盘为笔，以屏幕为纸，<br/>书写数字世界的山水长卷。」</em></p>
+
+---
+
+<!-- 技术栈 - 竹林风格 -->
+<h2 align="center">🎋 技艺</h2>
 
 <div align="center">
 
 <!-- 编程语言 -->
-<h3>💻 编程语言</h3>
+<h3>🖌️ 笔墨</h3>
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/JavaScript-墨色-F5F0E8?style=for-the-badge&logo=javascript&logoColor=F5F0E8&labelColor=2C2C2C" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-墨色-F5F0E8?style=for-the-badge&logo=typescript&logoColor=F5F0E8&labelColor=2C2C2C" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-墨色-F5F0E8?style=for-the-badge&logo=python&logoColor=F5F0E8&labelColor=2C2C2C" alt="Python" />
+  <img src="https://img.shields.io/badge/Go-墨色-F5F0E8?style=for-the-badge&logo=go&logoColor=F5F0E8&labelColor=2C2C2C" alt="Go" />
+  <img src="https://img.shields.io/badge/Rust-墨色-F5F0E8?style=for-the-badge&logo=rust&logoColor=F5F0E8&labelColor=2C2C2C" alt="Rust" />
 </p>
 
 <!-- 前端技术 -->
-<h3>🎨 前端技术</h3>
+<h3>🎨 丹青</h3>
 <p>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/React-竹青-F5F0E8?style=for-the-badge&logo=react&logoColor=F5F0E8&labelColor=7CB9A8" alt="React" />
+  <img src="https://img.shields.io/badge/Vue.js-竹青-F5F0E8?style=for-the-badge&logo=vue.js&logoColor=F5F0E8&labelColor=7CB9A8" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/Next.js-竹青-F5F0E8?style=for-the-badge&logo=next.js&logoColor=F5F0E8&labelColor=7CB9A8" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind-竹青-F5F0E8?style=for-the-badge&logo=tailwind-css&logoColor=F5F0E8&labelColor=7CB9A8" alt="Tailwind" />
 </p>
 
 <!-- 后端技术 -->
-<h3>⚙️ 后端技术</h3>
+<h3>⚙️ 机关</h3>
 <p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Node.js-朱砂-F5F0E8?style=for-the-badge&logo=node.js&logoColor=F5F0E8&labelColor=C9372C" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Django-朱砂-F5F0E8?style=for-the-badge&logo=django&logoColor=F5F0E8&labelColor=C9372C" alt="Django" />
+  <img src="https://img.shields.io/badge/PostgreSQL-朱砂-F5F0E8?style=for-the-badge&logo=postgresql&logoColor=F5F0E8&labelColor=C9372C" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-朱砂-F5F0E8?style=for-the-badge&logo=mongodb&logoColor=F5F0E8&labelColor=C9372C" alt="MongoDB" />
 </p>
 
-<!-- DevOps & 工具 -->
-<h3>🚀 DevOps & 工具</h3>
+<!-- 工具 -->
+<h3>🔧 器物</h3>
 <p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Docker-墨色-F5F0E8?style=for-the-badge&logo=docker&logoColor=F5F0E8&labelColor=2C2C2C" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-墨色-F5F0E8?style=for-the-badge&logo=git&logoColor=F5F0E8&labelColor=2C2C2C" alt="Git" />
+  <img src="https://img.shields.io/badge/Linux-墨色-F5F0E8?style=for-the-badge&logo=linux&logoColor=F5F0E8&labelColor=2C2C2C" alt="Linux" />
+  <img src="https://img.shields.io/badge/VS_Code-墨色-F5F0E8?style=for-the-badge&logo=visual-studio-code&logoColor=F5F0E8&labelColor=2C2C2C" alt="VS Code" />
 </p>
 
 </div>
 
 ---
 
-<!-- GitHub 统计卡片 -->
-<h2 align="center">📊 GitHub 统计</h2>
+<!-- GitHub 统计 - 水墨风格 -->
+<h2 align="center">📊 修行统计</h2>
 
 <div align="center">
 
-<!-- GitHub Stats 卡片 -->
+<!-- 统计卡片 -->
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&card_width=450" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username=cubeyu&show_icons=true&theme=dark&hide_border=true&bg_color=2C2C2C&title_color=F5F0E8&icon_color=C9372C&text_color=F5F0E8&card_width=450&border_radius=8" alt="修行统计" />
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&card_width=450" alt="Top Languages" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cubeyu&layout=compact&theme=dark&hide_border=true&bg_color=2C2C2C&title_color=F5F0E8&text_color=F5F0E8&card_width=450&border_radius=8" alt="常用笔墨" />
     </td>
   </tr>
 </table>
 
-<!-- GitHub 连续贡献 & 奖杯 -->
+<!-- 连续贡献 -->
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=cubeyu&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="GitHub Streak" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=cubeyu&theme=dark&hide_border=true&background=2C2C2C&stroke=C9372C&ring=C9372C&fire=7CB9A8&currStreakLabel=F5F0E8&sideLabels=F5F0E8&currStreakNum=F5F0E8&sideNums=F5F0E8&dates=F5F0E8" alt="连续修行" />
     </td>
     <td>
-      <img src="https://github-profile-trophy.vercel.app/?username=cubeyu&theme=tokyonight&no-frame=true&column=3&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+      <img src="https://github-profile-trophy.vercel.app/?username=cubeyu&theme=onedark&no-frame=true&column=3&margin-w=15&margin-h=15" alt="修行成就" />
     </td>
   </tr>
 </table>
@@ -121,56 +118,55 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cubeyu/cubeyu/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cubeyu/cubeyu/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/github-contribution-grid-snake.svg" />
+  <img alt="墨龙" src="https://raw.githubusercontent.com/cubeyu/cubeyu/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
 
 ---
 
-<!-- 精选项目卡片 -->
-<h2 align="center">📁 精选项目</h2>
+<!-- 活动图表 -->
+<h2 align="center">📈 修行轨迹</h2>
 
 <div align="center">
 
-<!-- 项目卡片 1 -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cubeyu&theme=github-compact&hide_border=true&bg_color=2C2C2C&color=F5F0E8&line=C9372C&point=7CB9A8&area=true&area_color=C9372C" alt="修行轨迹" />
+
+</div>
+
+---
+
+<!-- 精选项目 -->
+<h2 align="center">📁 得意之作</h2>
+
+<div align="center">
+
 <a href="https://github.com/cubeyu/cubeyu">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=cubeyu&repo=cubeyu&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" alt="Project Card" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=cubeyu&repo=cubeyu&theme=dark&hide_border=true&bg_color=2C2C2C&title_color=F5F0E8&icon_color=C9372C&text_color=F5F0E8&border_radius=8" alt="得意之作" />
 </a>
 
 </div>
 
 ---
 
-<!-- 活动图表 -->
-<h2 align="center">📈 活动图表</h2>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=cubeyu&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true" alt="Activity Graph" />
-
-</div>
-
----
-
 <!-- 联系我 -->
-<h2 align="center">📮 联系我</h2>
+<h2 align="center">📮 飞鸽传书</h2>
 
 <div align="center">
 
 <p>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:cubeyu@aliyun.com">
+    <img src="https://img.shields.io/badge/飞鸽传书-C9372C?style=for-the-badge&logo=gmail&logoColor=F5F0E8&labelColor=2C2C2C" alt="Email" />
   </a>
   <a href="https://github.com/cubeyu">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/墨阁-2C2C2C?style=for-the-badge&logo=github&logoColor=F5F0E8&labelColor=2C2C2C" alt="GitHub" />
   </a>
 </p>
 
-<!-- 底部标语 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:0066FF&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=FFFFFF&animation=fadeIn" alt="Footer" />
+<!-- 底部水墨横幅 -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C2C2C,50:C9372C,100:2C2C2C&height=120&section=footer&text=山水有相逢&fontSize=24&fontColor=F5F0E8&fontFamily=Ma+Shan+Zheng&animation=fadeIn" alt="footer" />
 
 </div>
 
-<!-- 隐藏的工作流触发器（用于生成贡献蛇图） -->
+<!-- 隐藏的工作流触发器（用于生成墨龙图） -->
 <!-- 需要在仓库中创建 .github/workflows/snake.yml 工作流 -->
