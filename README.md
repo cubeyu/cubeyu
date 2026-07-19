@@ -25,7 +25,7 @@
 <!-- ════════════ 壹 · 吾之简介（文左 · 图右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-about-dark.svg"/>
-  <img src="./svg/section-about.svg" style="width:100%; max-width:360px; height:auto;" alt="壹 吾之简介"/>
+  <img src="./svg/section-about.svg" width="320" alt="壹 吾之简介"/>
 </picture></p>
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
@@ -39,7 +39,7 @@
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-landscape-dark.svg"/>
-  <img src="./svg/ink-landscape.svg" alt="山水孤舟" style="width:100%; height:auto;"/>
+  <img src="./svg/ink-landscape.svg" alt="山水孤舟" style="width:100%; max-width:320px; height:auto;"/>
 </picture>
     </td>
   </tr>
@@ -55,7 +55,7 @@
 <!-- ════════════ 贰 · 所学技艺（图左 · 文右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-skills-dark.svg"/>
-  <img src="./svg/section-skills.svg" style="width:100%; max-width:360px; height:auto;" alt="贰 所学技艺"/>
+  <img src="./svg/section-skills.svg" width="320" alt="贰 所学技艺"/>
 </picture></p>
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
@@ -63,7 +63,7 @@
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-bamboo-dark.svg"/>
-  <img src="./svg/ink-bamboo.svg" alt="墨竹劲节" style="width:100%; height:auto;"/>
+  <img src="./svg/ink-bamboo.svg" alt="墨竹劲节" style="width:100%; max-width:320px; height:auto;"/>
 </picture>
     </td>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
@@ -99,7 +99,7 @@
 <!-- ════════════ 叁 · 得意之作（文左 · 图右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-projects-dark.svg"/>
-  <img src="./svg/section-projects.svg" style="width:100%; max-width:360px; height:auto;" alt="叁 得意之作"/>
+  <img src="./svg/section-projects.svg" width="320" alt="叁 得意之作"/>
 </picture></p>
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
@@ -116,7 +116,7 @@
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-pavilion-dark.svg"/>
-  <img src="./svg/ink-pavilion.svg" alt="楼阁得意图" style="width:100%; height:auto;"/>
+  <img src="./svg/ink-pavilion.svg" alt="楼阁得意图" style="width:100%; max-width:320px; height:auto;"/>
 </picture>
     </td>
   </tr>
@@ -132,7 +132,7 @@
 <!-- ════════════ 肆 · 笔耕不辍（图左 · 文右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-stats-dark.svg"/>
-  <img src="./svg/section-stats.svg" style="width:100%; max-width:360px; height:auto;" alt="肆 笔耕不辍"/>
+  <img src="./svg/section-stats.svg" width="320" alt="肆 笔耕不辍"/>
 </picture></p>
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
@@ -140,7 +140,7 @@
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-brush-dark.svg"/>
-  <img src="./svg/ink-brush.svg" alt="笔墨纸砚" style="width:100%; height:auto;"/>
+  <img src="./svg/ink-brush.svg" alt="笔墨纸砚" style="width:100%; max-width:320px; height:auto;"/>
 </picture>
     </td>
     <td width="50%" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:18px 22px; font-family:STKaiti,KaiTi,楷体,STFangsong,FangSong,仿宋,serif; color:#2c2c2c; font-size:15px; line-height:1.9; text-align:center;">
@@ -162,7 +162,7 @@
 <!-- ════════════ 伍 · 鸿雁传书（文左 · 图右） ════════════ -->
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/section-contact-dark.svg"/>
-  <img src="./svg/section-contact.svg" style="width:100%; max-width:360px; height:auto;" alt="伍 鸿雁传书"/>
+  <img src="./svg/section-contact.svg" width="320" alt="伍 鸿雁传书"/>
 </picture></p>
 
 <table align="center" width="100%" border="0" style="border-collapse:separate; border-spacing:14px 10px;">
@@ -176,7 +176,7 @@
     <td width="50%" align="center" valign="middle" style="background-color:#f7f1e3; border:1px solid #c9b88a; border-radius:14px; box-shadow:0 3px 14px rgba(60,40,20,0.14); padding:10px;">
       <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/ink-goose-dark.svg"/>
-  <img src="./svg/ink-goose.svg" alt="飞鸿传书" style="width:100%; height:auto;"/>
+  <img src="./svg/ink-goose.svg" alt="飞鸿传书" style="width:100%; max-width:320px; height:auto;"/>
 </picture>
     </td>
   </tr>
@@ -195,5 +195,12 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./svg/footer-signature-dark.svg"/>
-  <img src="./svg/footer-signature.svg" style="width:100%; max-width:360px; height:auto;" alt="cubeyu 谨识"/>
+  <img src="./svg/footer-signature.svg" width="320" alt="cubeyu 谨识"/>
+</picture></p>
+
+<br/>
+
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./svg/footer-end-dark.svg"/>
+  <img src="./svg/footer-end.svg" width="360" alt="卷终"/>
 </picture></p>
