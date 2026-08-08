@@ -1,16 +1,5 @@
 <!-- GitHub Profile · cubeyu · 现代主流风格 -->
 
-<div align="center">
-<img src="https://github.com/cubeyu.png" width="120" height="120" alt="cubeyu" style="border-radius:50%;"/>
-
-# 麦希屿 · cubeyu
-
-**AI & 开源爱好者**
-
-</div>
-
----
-
 ### 👋 关于我
 
 你好，我是麦希屿，一名 AI 与开源爱好者。
@@ -35,8 +24,3 @@
 <a href="https://techisle.top/"><img src="https://img.shields.io/badge/主页-techisle.top-2c2c2c?style=flat-square"/></a>
 <a href="mailto:cubeyu@aliyun.com"><img src="https://img.shields.io/badge/邮箱-cubeyu@aliyun.com-d73a49?style=flat-square"/></a>
 
----
-
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=cubeyu&style=flat-square&color=0969da&label=访客" alt="访客计数"/>
-</div>
