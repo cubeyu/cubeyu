@@ -13,8 +13,8 @@
 ### 🛠 技术栈
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js,ts,python,go,react,vue,nodejs,nextjs,git,docker,linux,vscode&perline=6&theme=dark"/>
-  <img src="https://skillicons.dev/icons?i=js,ts,python,go,react,vue,nodejs,nextjs,git,docker,linux,vscode&perline=6&theme=light" alt="Tech Stack"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js,ts,python,go,react,vue,nodejs,java,rust,nextjs,git,docker,linux,vscode&perline=6&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=js,ts,python,go,react,vue,nodejs,java,rust,nextjs,git,docker,linux,vscode&perline=6&theme=light" alt="Tech Stack"/>
 </picture>
 
 ### 📫 联系方式
