@@ -9,15 +9,15 @@
 
 ### 🛠 技术栈
 
-<!-- 三处 URL 的 i= 清单必须完全一致；<img> 同时作为不支持 media 查询时的兜底 -->
+<!-- srcset 按逗号分隔候选图，所以 URL 里的逗号必须写成 %2C，否则只会取到 i=js 一张图 -->
+<!-- 三处 i= 清单保持一致；<img> 同时作为不支持 media 查询时的兜底 -->
 <picture>
   <source media="(prefers-color-scheme: dark)"
-          srcset="https://skillicons.dev/icons?i=js,ts,python,go,react,vue,nodejs,java,rust,nextjs,git,docker,linux,vscode&perline=6&theme=dark">
+          srcset="https://skillicons.dev/icons?i=js%2Cts%2Cpython%2Cgo%2Creact%2Cvue%2Cnodejs%2Cjava%2Crust%2Cnextjs%2Cgit%2Cdocker%2Clinux%2Cvscode&perline=6&theme=dark">
   <source media="(prefers-color-scheme: light)"
-          srcset="https://skillicons.dev/icons?i=js,ts,python,go,react,vue,nodejs,java,rust,nextjs,git,docker,linux,vscode&perline=6&theme=light">
+          srcset="https://skillicons.dev/icons?i=js%2Cts%2Cpython%2Cgo%2Creact%2Cvue%2Cnodejs%2Cjava%2Crust%2Cnextjs%2Cgit%2Cdocker%2Clinux%2Cvscode&perline=6&theme=light">
   <img src="https://skillicons.dev/icons?i=js,ts,python,go,react,vue,nodejs,java,rust,nextjs,git,docker,linux,vscode&perline=6&theme=light"
-       alt="技术栈：JavaScript、TypeScript、Python、Go、React、Vue、Node.js、Java、Rust、Next.js、Git、Docker、Linux、VS Code"
-       width="660">
+       alt="技术栈：JavaScript、TypeScript、Python、Go、React、Vue、Node.js、Java、Rust、Next.js、Git、Docker、Linux、VS Code">
 </picture>
 
 ### 📫 联系方式
